@@ -263,6 +263,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
+    z-index: 1;
 }
 
 .main-div:nth-child(1)
