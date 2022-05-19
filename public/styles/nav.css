@@ -20,7 +20,39 @@
     --third: #3a8bb4;
     --darkModePrimary: #2e3033;
     --darkModeSecondary: #1e1e1e;
+
+    --lightshadow: rgba(255, 255, 255, 1);
+    --lightdarkshadow: rgba(158, 158, 158, 0.33);
 }
+
+/* dark mode */
+
+.navbar.dark-mode {
+    background: var(--darkModePrimary);
+}
+
+.nav_atag.dark-mode {
+    background: rgba(30, 30, 30, 0.7);
+    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.17),
+        10px 10px 20px rgba(30, 30, 30, 0.33),
+        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+        inset -8px -8px 16px rgba(30, 30, 30, 0.25);
+    color: var(--primary);
+}
+
+.nav_atag:hover.dark-mode {
+    background: rgba(30, 30, 30, 0.7);
+    box-shadow: inset 4px 4px 6px 0 rgba(0, 0, 0, 0.1),
+        -4px -4px 6px rgba(30, 30, 30, 0.25);
+}
+
+.logo.dark-mode
+{
+    color: var(--primary);
+}
+
+
+/* dark mode ends */
 
 .container {
     max-width: 1200px;
@@ -36,12 +68,6 @@
     color: #000;
     z-index: 100;
     /* box-shadow: 5px 5px 20px #a8a8a8; */
-}
-
-/* dark mode */
-
-.navbar.dark-mode {
-    background: var(--darkModePrimary);
 }
 
 .navbar-container {
@@ -65,7 +91,7 @@
     font-size: 1.1rem;
 }
 
-.menu-items li a {
+.nav_atag {
     padding: 10px 15px;
     margin: 0px 10px;
     border-radius: 10px;
@@ -96,14 +122,14 @@
     ) !important;
 }
 
-.navbar a {
+.nav_atag {
     color: #444;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
 }
 
-.navbar a:hover {
+.nav_atag:hover {
     box-shadow: inset 4px 4px 6px 0 rgba(0, 0, 0, 0.1),
         -4px -4px 6px rgba(255, 255, 255, 1);
 }
