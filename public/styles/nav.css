@@ -14,6 +14,10 @@
 
 :root {
     --primary: #efeeee;
+    --accent: #3696b5;
+    --first: #23c2ba;
+    --second: #2dacb8;
+    --third: #3a8bb4;
 }
 
 .container {
@@ -23,10 +27,10 @@
 }
 
 .navbar {
-    /* position: fixed; */
-    position: relative;
+    position: fixed;
+    /* position: relative; */
     width: 100%;
-    /* background: var(--primary); */
+    background: var(--primary);
     color: #000;
     z-index: 100;
     /* box-shadow: 5px 5px 20px #a8a8a8; */
@@ -55,12 +59,33 @@
 
 .menu-items li a {
     padding: 10px 15px;
-    margin: 0px 5px;
+    margin: 0px 10px;
     border-radius: 10px;
     background: var(--primary);
     color: #000;
     box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.1),
         -4px -4px 6px rgba(255, 255, 255, 1);
+}
+
+.contact_nav {
+    background: linear-gradient(
+        45deg,
+        var(--first),
+        var(--second),
+        var(--third)
+    ) !important;
+    color: #efeeee !important;
+    transition: all 1s ease-in-out !important;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5), -1px -1px 3px #4c63b0 !important;
+    box-shadow: 2px 2px 6px 0 #4c63b0, -4px -4px 6px rgba(255, 255, 255, 0.5) !important;
+}
+
+.contact_nav:hover {
+    background: linear-gradient(
+        var(--first),
+        var(--second),
+        var(--third)
+    ) !important;
 }
 
 .navbar a {
