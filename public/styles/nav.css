@@ -18,6 +18,8 @@
     --first: #23c2ba;
     --second: #2dacb8;
     --third: #3a8bb4;
+    --darkModePrimary: #2e3033;
+    --darkModeSecondary: #1e1e1e;
 }
 
 .container {
@@ -34,6 +36,12 @@
     color: #000;
     z-index: 100;
     /* box-shadow: 5px 5px 20px #a8a8a8; */
+}
+
+/* dark mode */
+
+.navbar.dark-mode {
+    background: var(--darkModePrimary);
 }
 
 .navbar-container {
