@@ -11,28 +11,6 @@ const darkmode = () => {
     document.querySelectorAll(".nav_atag").forEach((element) => {
         element.classList.toggle("dark-mode");
     });
-    // about
-    document.querySelectorAll(".about-image-img").forEach((element) => {
-        element.classList.toggle("dark-mode");
-    });
-    document.querySelectorAll(".tech-button").forEach((element) => {
-        element.classList.toggle("dark-mode");
-    });
-    document.querySelectorAll(".about-content-div").forEach((element) => {
-        element.classList.toggle("dark-mode");
-    });
-    // contact us
-    document
-        .querySelector(".contact-us-section form")
-        .classList.toggle("dark-mode");
-    document.querySelector(".div-form textarea").classList.toggle("dark-mode");
-    document.querySelector(".submit-button").classList.toggle("dark-mode");
-    document.querySelectorAll(".div-form input").forEach((element) => {
-        element.classList.toggle("dark-mode");
-    });
-    document.querySelectorAll(".div-form label").forEach((element) => {
-        element.classList.toggle("dark-mode");
-    });
 
     // developers
 

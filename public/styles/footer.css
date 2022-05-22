@@ -14,9 +14,9 @@ footer {
 .footer-links {
     width: 20%;
     height: 90%;
-    background: rgba(35, 198, 234, 0.01);
+    /* background: rgba(35, 198, 234, 0.01);
     box-shadow: 10px 10px 20px rgba(9, 8, 8, 0.27),
-        -10px -10px 20px rgba(0, 0, 0, 0.25);
+        -10px -10px 20px rgba(0, 0, 0, 0.25); */
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -41,9 +41,9 @@ footer {
 {
     width: 50%;
     height: 90%;
-    background: rgba(35, 198, 234, 0.01);
-    box-shadow: 10px 10px 20px rgba(9, 8, 8, 0.27),
-        -10px -10px 20px rgba(0, 0, 0, 0.25);
+    /* background: rgba(35, 198, 234, 0.01); */
+    /* box-shadow: 10px 10px 20px rgba(9, 8, 8, 0.27),
+        -10px -10px 20px rgba(0, 0, 0, 0.25); */
     border-radius: 20px;
     padding: 2% 3%;
     display: flex;

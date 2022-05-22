@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--primary);
+}
+
+/* dark mode */
+
+body.dark-mode {
+    background: var(--darkModePrimary);
+}
+
+.image-div.dark-mode {
+    box-shadow: -10px -10px 20px var(--darkModeSecondary),
+        10px 10px 20px rgba(0, 0, 0, 0.33),
+        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+        inset -8px -8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-div.dark-mode {
+    box-shadow: -10px -10px 20px var(--darkModeSecondary),
+        10px 10px 20px rgba(0, 0, 0, 0.33),
+        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+        inset -8px -8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.social-icons a.dark-mode {
+    background: grey;
+    box-shadow: -10px -10px 20px var(--darkModeSecondary),
+        10px 10px 20px rgba(0, 0, 0, 0.33),
+        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+        inset -8px -8px 16px rgba(0, 0, 0, 0.25);
+}
+.social-icons a:hover.dark-mode {
+    box-shadow: inset -10px -10px 20px var(--darkModeSecondary),
+        inset 10px 10px 20px rgba(0, 0, 0, 0.33),
+        8px 8px 16px rgba(52, 49, 49, 0.27), -8px -8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.social-icons a img.dark-mode {
+    color: var(--primary);
+}
+.content-div.dark-mode {
+    background: rgba(30, 30, 30, 0.4);
+    color: var(--primary);
+    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.17),
+        10px 10px 20px rgba(30, 30, 30, 0.33),
+        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+        inset -8px -8px 16px rgba(30, 30, 30, 0.25);
+}
+
+/* teams section */
+
+.teams-section {
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-div {
+    position: absolute;
+    width: 16rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 1;
+}
+
+.main-div:nth-child(1) {
+    top: 12%;
+    left: 5%;
+}
+.main-div:nth-child(2) {
+    top: 12%;
+    right: 5%;
+}
+.main-div:nth-child(3) {
+    bottom: 12%;
+    left: 5%;
+}
+.main-div:nth-child(4) {
+    bottom: 12%;
+    right: 5%;
+}
+
+.content-div {
+    position: relative;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 24px 24px 64px #bebebe,
+        -24px -24px 64px rgba(207, 206, 206, 0.3);
+    border-radius: 20px;
+}
+
+.image-div {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.62),
+        10px 10px 20px rgba(158, 158, 158, 0.33),
+        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+        inset -8px -8px 16px rgba(255, 255, 255, 0.25);
+    top: 0%;
+    left: 10%;
+    border-radius: 50%;
+    z-index: 3;
+    transform: translateY(-10%);
+}
+
+.shadow-div {
+    content: "";
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.2);
+    /* top: 0%;
+    left: 0%; */
+    border-radius: 50%;
+    box-shadow: -10px -10px 20px rgba(158, 158, 158, 0.33),
+        10px 10px 20px rgba(255, 255, 255, 0.25),
+        8px 8px 16px rgba(52, 49, 49, 0.27),
+        -8px -8px 16px rgba(255, 255, 255, 0.62);
+    z-index: 2;
+}
+
+.image-div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-icons {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+    padding-top: 12%;
+}
+
+.social-icons a {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    border-radius: 50%;
+    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+}
+
+.social-icons a:hover {
+    box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+}
