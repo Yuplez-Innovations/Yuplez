@@ -8,8 +8,13 @@
         <link rel="stylesheet" href="./public/styles/services.css" />
         <link rel="stylesheet" href="./public/styles/nav.css" />
         <link rel="stylesheet" href="./public/styles/footer.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+        />
         <title>Yuplez | Home</title>
     </head>
+
     <body>
         <nav class="navbar">
             <div class="navbar-container container">
@@ -21,184 +26,224 @@
                 </div>
                 <ul class="menu-items">
                     <a class="toggle-dark-mode">Toggle</a>
-
-                    <!-- <div class="toggle-dark-mode">
-                        <div class="switch-toggle">
-                            <input type="checkbox" id="bluetooth" />
-                            <label for="bluetooth"></label>
-                        </div>
-                    </div> -->
-
                     <li><a class="nav_atag" href="#">Home</a></li>
-                    <li><a class="nav_atag" href="#">About</a></li>
-                    <!-- <li><a class="nav_atag" href="#">Services</a></li> -->
-                    <li><a class="nav_atag" href="#">Team</a></li>
+                    <li><a class="nav_atag" href="#about-section">About</a></li>
+                    <!-- <li><a class="nav_atag" href="#services-section">Services</a></li> -->
+                    <li><a class="nav_atag" href="./views/teams.html">Team</a></li>
                     <li>
-                        <a class="contact_nav nav_atag" href="#">Let's Build</a>
+                        <a class="contact_nav nav_atag" href="#contact-section">Let's Build</a>
                     </li>
                     <!-- <li><a class="nav_atag" href="./views/tech-stack.html">Tech Stack</a></li> -->
                 </ul>
+
+                <div class="switch-holder">
+                    <div class="switch-toggle">
+                        <input class="toggle_button" type="checkbox" id="toggle_label">
+                        <label for="toggle_label"></label>
+                    </div>
+                </div>
+
                 <h1 class="logo">Yuplez</h1>
             </div>
         </nav>
 
-        <section class="main-page">
-            <div class="main-para">
-                <p>
-                    Lorem Ipsum has been the industry's standard dummy text ever
-                    since the 1500s, when an unknown printer took a galley of
-                    type and scrambled it.
-                </p>
-            </div>
-            <div class="main-logo"></div>
-            <div class="main-read-more-div">
-                <a href="" class="main-read-more">Read More</a>
-            </div>
-        </section>
-
-        <section class="about-section">
-            <div class="about-div">
-                <div class="about-image-div">
-                    <div class="about-image-img"></div>
-                </div>
-                <div class="about-content-div">
+        <div class="container-div">
+            <section class="main-page">
+                <div class="main-para">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Laboriosam omnis eaque neque quae error dolores
-                        atque asperiores, fugiat necessitatibus voluptatem,
-                        sapiente rerum culpa corporis dicta placeat officiis ab
-                        repudiandae dolore!
+                        Lorem Ipsum has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it.
                     </p>
                 </div>
-            </div>
-            <div class="about-div">
-                <div class="about-image-div">
-                    <div class="about-image-img"></div>
+                <div class="main-logo"></div>
+                <div class="main-read-more-div">
+                    <a href="" class="main-read-more">Read More</a>
                 </div>
-                <div class="about-content-div">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Laboriosam omnis eaque neque quae error dolores
-                        atque asperiores, fugiat necessitatibus voluptatem,
-                        sapiente rerum culpa corporis dicta placeat officiis ab
-                        repudiandae dolore!
-                    </p>
-                    <a class="tech-button" href="./views/tech-stack.html"
-                        >Our Tech Stack</a
-                    >
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="services-section">
-            <div class="main-services">
-                <div class="service-main-div">
-                    <div class="service-div">
-                        <div class="image-service"></div>
-                        <div class="content-service">
-                            <h1>Service 1</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Recusandae, necessitatibus
-                                illo illum obcaecati, ducimus eum,
-                                exercitationem quas voluptas magni eos maxime
-                                nulla! Aliquam officiis voluptates, tenetur
-                                nobis nesciunt deserunt maiores?
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Recusandae, necessitatibus
-                                illo illum obcaecati, ducimus eum,
-                                exercitationem quas voluptas magni eos maxime
-                                nulla! Aliquam officiis voluptates, tenetur
-                                nobis nesciunt deserunt maiores?
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Recusandae, necessitatibus
-                                illo illum obcaecati, ducimus eum,
-                                exercitationem quas voluptas magni eos maxime
-                                nulla! Aliquam officiis voluptates, tenetur
-                                nobis nesciunt deserunt maiores?
-                            </p>
+            <section class="about-section" id="about-section">
+                <div class="about-div">
+                    <div class="about-image-div">
+                        <div class="about-image-img"></div>
+                    </div>
+                    <div class="about-content-div">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Laboriosam omnis eaque neque quae error
+                            dolores atque asperiores, fugiat necessitatibus
+                            voluptatem, sapiente rerum culpa corporis dicta
+                            placeat officiis ab repudiandae dolore!
+                        </p>
+                    </div>
+                </div>
+                <div class="about-div">
+                    <div class="about-image-div">
+                        <div class="about-image-img"></div>
+                    </div>
+                    <div class="about-content-div">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Laboriosam omnis eaque neque quae error
+                            dolores atque asperiores, fugiat necessitatibus
+                            voluptatem, sapiente rerum culpa corporis dicta
+                            placeat officiis ab repudiandae dolore!
+                        </p>
+                        <a class="tech-button" href="./views/tech-stack.html"
+                            >Our Tech Stack</a
+                        >
+                    </div>
+                </div>
+            </section>
+
+            <section class="services-section" id="services-section">
+                <div class="main-services">
+                    <div class="service-main-div">
+                        <div class="service-div">
+                            <div class="image-service"></div>
+                            <div class="content-service">
+                                <h1>Service 1</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Recusandae, necessitatibus
+                                    illo illum obcaecati, ducimus eum,
+                                    exercitationem quas voluptas magni eos
+                                    maxime nulla! Aliquam officiis voluptates,
+                                    tenetur nobis nesciunt deserunt maiores?
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Recusandae, necessitatibus
+                                    illo illum obcaecati, ducimus eum,
+                                    exercitationem quas voluptas magni eos
+                                    maxime nulla! Aliquam officiis voluptates,
+                                    tenetur nobis nesciunt deserunt maiores?
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Recusandae, necessitatibus
+                                    illo illum obcaecati, ducimus eum,
+                                    exercitationem quas voluptas magni eos
+                                    maxime nulla! Aliquam officiis voluptates,
+                                    tenetur nobis nesciunt deserunt maiores?
+                                </p>
+                            </div>
+                        </div>
+                        <div class="service-div">
+                            <div class="image-service"></div>
+                            <div class="content-service">
+                                <h1>Service 1</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Recusandae, necessitatibus
+                                    illo illum obcaecati, ducimus eum,
+                                    exercitationem quas voluptas magni eos
+                                    maxime nulla! Aliquam officiis voluptates,
+                                    tenetur nobis nesciunt deserunt maiores?
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Recusandae, necessitatibus
+                                    illo illum obcaecati, ducimus eum,
+                                    exercitationem quas voluptas magni eos
+                                    maxime nulla! Aliquam officiis voluptates,
+                                    tenetur nobis nesciunt deserunt maiores?
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Recusandae, necessitatibus
+                                    illo illum obcaecati, ducimus eum,
+                                    exercitationem quas voluptas magni eos
+                                    maxime nulla! Aliquam officiis voluptates,
+                                    tenetur nobis nesciunt deserunt maiores?
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="partners-section">
-            <h1>Want to be a Partner with extra benefits</h1>
-        </section>
+            <section class="partners-section">
+                <h1>Want to be a Partner with extra benefits</h1>
+            </section>
 
-        <section class="contact-us-section">
-            <form action="">
-                <h1>LET US BUILD</h1>
-                <div class="div-form">
-                    <label for="name">Name</label>
-                    <input
-                        type="text"
-                        name="name"
-                        id="name"
-                        placeholder="Enter your Name"
-                    />
-                </div>
-                <div class="div-form">
-                    <label for="email">Email</label>
-                    <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Enter your Email"
-                    />
-                </div>
-                <div class="div-form">
-                    <label for="message">Message</label>
-                    <textarea
-                        name="message"
-                        id="message"
-                        placeholder="Enter your Message"
-                    ></textarea>
-                </div>
-                <div class="div-form">
-                    <button class="submit-button">Submit</button>
-                    <!-- <input class="submit-button" type="submit" value="Submit" /> -->
-                </div>
-            </form>
-        </section>
+            <section class="contact-us-section" id="contact-section">
+                <form action="">
+                    <h1>LET US BUILD</h1>
+                    <div class="div-form">
+                        <label for="name">Name</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Enter your Name"
+                        />
+                    </div>
+                    <div class="div-form">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Enter your Email"
+                        />
+                    </div>
+                    <div class="div-form">
+                        <label for="message">Message</label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            placeholder="Enter your Message"
+                        ></textarea>
+                    </div>
+                    <div class="div-form">
+                        <button class="submit-button">Submit</button>
+                        <!-- <input class="submit-button" type="submit" value="Submit" /> -->
+                    </div>
+                </form>
+            </section>
+        </div>
 
         <footer>
-            <div class="footer-links">
-                <h1>Links</h1>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-                    nesciunt assumenda enim veniam. Nam, distinctio. Sed fuga
-                    alias velit. Officiis eveniet blanditiis molestiae dolorem
-                    dolore at odit maiores iusto corporis.
-                </p>
-                <p>
-                    Email :
-                    <a href="mailto:yuplezinnovations@gmail.com"
-                        >yuplezinnovations@gmail.com</a
-                    >
-                </p>
-                <p>Phone : <a href="tel:+918667057114">8667057114</a></p>
-            </div>
-
-            <div class="footer-links">
-                <h1>Social Media</h1>
-                <ul>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Linkedin</a></li>
-                    <li><a href="">Facebook</a></li>
-                </ul>
+            <div class="footer-div">
+                <div class="paragraph-footer">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="contact-footer">
+                    
+                    <span class="footer"></span>
+                    <a href=""><span class="contact"></span>Contact US</a>
+                </div>
+                <div class="links-main-footer">
+                    <div class="links-footer">
+                        <a href="">Home</a>
+                        <a href="">Services</a>
+                        <a href="">Teams</a>
+                        <a href="">Tech Stack</a>
+                    </div>
+                    <div class="social-footer">
+                        <a href=""><img src="https://img.icons8.com/ios/30/ffffff/instagram-new--v1.png"/></a>
+                        <a href=""><img src="https://img.icons8.com/ios/30/ffffff/linkedin-circled--v1.png"/></a>
+                        <a href=""><img src="https://img.icons8.com/ios/30/ffffff/facebook-new.png"/></a>
+                    </div>
+                </div>
+                <div class="last-footer">
+                    <div class="terms-footer">
+                        <a href="">Terms and Conditions</a>
+                    </div>
+                    <div class="copyrights-footer">
+                        <p>Copyright © 2022. All rights reserved.</p>
+                    </div>
+                </div>
             </div>
         </footer>
     </body>
 
     <script src="./public/javascript/black-theme.js"></script>
+    <!-- <script src="./public/javascript/services.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <!-- <script>
+        const scroller = new LocomotiveScroll({
+            el: document.querySelector("[data-scroll-container]"),
+            smooth: true,
+            tablet: {
+                smooth: true,
+            },
+            smartphone: {
+                smooth: true,
+            },
+        }); -->
+    </script>
 </html>
