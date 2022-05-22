@@ -1,7 +1,6 @@
-const toggleDarkMode = document.querySelector(".toggle-dark-mode");
-// const toggleDarkMode = document.querySelector(".toggle_button").checked = true;
+const toggleDarkMode = document.querySelector(".toggle_button");
 
-toggleDarkMode.addEventListener("click", () => {
+toggleDarkMode.addEventListener("input", () => {
     darkmode();
 });
 
@@ -12,6 +11,10 @@ const darkmode = () => {
     document.querySelectorAll(".nav_atag").forEach((element) => {
         element.classList.toggle("dark-mode");
     });
+    document
+        .querySelector(".switch-toggle input[type='checkbox'] + label")
+        .classList.toggle("dark-mode");
+    document.querySelector(".main-page").classList.toggle("dark-mode");
     // about
     document.querySelectorAll(".about-image-img").forEach((element) => {
         element.classList.toggle("dark-mode");
