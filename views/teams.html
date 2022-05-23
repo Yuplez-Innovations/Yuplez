@@ -11,6 +11,7 @@
     </head>
 
     <body>
+        <script src="../public/javascript/services.js" defer></script>
         <nav class="navbar">
             <div class="navbar-container container">
                 <input type="checkbox" name="" id="" />
@@ -21,25 +22,50 @@
                 </div>
                 <ul class="menu-items">
                     <li><a class="nav_atag" href="../index.html">Home</a></li>
-                    <li><a class="nav_atag" href="../index.html#about-section">About</a></li>
-                    <!-- <li><a class="nav_atag" href="../index.html#service-section">Services</a></li> -->
-                    <li><a class="nav_atag" href="./teams.html">Team</a></li>
                     <li>
-                        <a class="contact_nav nav_atag" href="../index.html#contact-section">Let's Build</a>
+                        <a class="nav_atag" href="../index.html#about-section"
+                            >About</a
+                        >
                     </li>
-                    <!-- <li><a class="nav_atag" href="./views/tech-stack.html">Tech Stack</a></li> -->
+                    <li>
+                        <a class="nav_atag" href="../views/teams.html">Team</a>
+                    </li>
+                    <li>
+                        <a
+                            class="contact_nav nav_atag"
+                            href="../index.html#contact-section"
+                            >Let's Build</a
+                        >
+                    </li>
+                    <li>
+                        <div class="switch-holder-mobile">
+                            <div class="switch-toggle-mobile">
+                                <input
+                                    class="toggle_button-mobile"
+                                    type="checkbox"
+                                    id="toggle_label-mobile"
+                                />
+                                <label for="toggle_label-mobile"></label>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
-
 
                 <div class="switch-holder">
                     <div class="switch-toggle">
-                        <input class="toggle_button" type="checkbox" id="toggle_label">
+                        <input
+                            class="toggle_button"
+                            type="checkbox"
+                            id="toggle_label"
+                        />
                         <label for="toggle_label"></label>
                     </div>
                 </div>
+
                 <h1 class="logo">Yuplez</h1>
             </div>
         </nav>
+        
 
         <section class="teams-section">
             <div class="main-div">
@@ -52,7 +78,7 @@
                 </div>
                 <div class="content-div">
                     <h1>Lohith R</h1>
-                    <h3>Developer</h2>
+                    <h3>CEO</h2>
                     <div class="social-icons">
                         <a href="">
                             <img src="https://img.icons8.com/ios/30/instagram-new--v1.png"/>
@@ -76,7 +102,7 @@
                 </div>
                 <div class="content-div">
                     <h1>Bhuvaneshwari B</h1>
-                    <h3>Developer</h2>
+                    <h3>CEO</h2>
                     <div class="social-icons">
                         <a href="">
                             <img src="https://img.icons8.com/ios/30/instagram-new--v1.png"/>
@@ -100,7 +126,7 @@
                 </div>
                 <div class="content-div">
                     <h1>Solomon Santhosh I</h1>
-                    <h3>Developer</h2>
+                    <h3>CEO</h2>
                     <div class="social-icons">
                         <a href="">
                             <img src="https://img.icons8.com/ios/30/instagram-new--v1.png"/>
@@ -114,7 +140,7 @@
                     </div>
                 </div>
             </div>
-            <div class="main-div">
+            <!-- <div class="main-div">
                 <div class="image-div">
                     <img
                         src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80"
@@ -124,7 +150,7 @@
                 </div>
                 <div class="content-div">
                     <h1>Abii Aravindh R</h1>
-                    <h3>Developer</h2>
+                    <h3>CEO</h2>
                     <div class="social-icons">
                         <a href="">
                             <img src="https://img.icons8.com/ios/30/instagram-new--v1.png"/>
@@ -137,7 +163,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="main-div">
                 <div class="image-div">
                     <img
@@ -148,7 +174,7 @@
                 </div>
                 <div class="content-div">
                     <h1>Prasanna</h1>
-                    <h3>Developer</h2>
+                    <h3>CEO</h2>
                     <div class="social-icons">
                         <a href="">
                             <img src="https://img.icons8.com/ios/30/instagram-new--v1.png"/>
@@ -168,10 +194,12 @@
         <footer>
             <div class="footer-div">
                 <div class="paragraph-footer">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit.
+                    </p>
                 </div>
                 <div class="contact-footer">
-                    
                     <span class="footer"></span>
                     <a href=""><span class="contact"></span>Contact US</a>
                 </div>
@@ -183,9 +211,18 @@
                         <a href="">Tech Stack</a>
                     </div>
                     <div class="social-footer">
-                        <a href=""><img src="https://img.icons8.com/ios/30/ffffff/instagram-new--v1.png"/></a>
-                        <a href=""><img src="https://img.icons8.com/ios/30/ffffff/linkedin-circled--v1.png"/></a>
-                        <a href=""><img src="https://img.icons8.com/ios/30/ffffff/facebook-new.png"/></a>
+                        <a href=""
+                            ><img
+                                src="https://img.icons8.com/ios/30/ffffff/instagram-new--v1.png"
+                        /></a>
+                        <a href=""
+                            ><img
+                                src="https://img.icons8.com/ios/30/ffffff/linkedin-circled--v1.png"
+                        /></a>
+                        <a href=""
+                            ><img
+                                src="https://img.icons8.com/ios/30/ffffff/facebook-new.png"
+                        /></a>
                     </div>
                 </div>
                 <div class="last-footer">

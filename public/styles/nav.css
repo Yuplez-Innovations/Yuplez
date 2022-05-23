@@ -21,6 +21,10 @@
 
 /* toggle */
 
+.switch-holder-mobile {
+    display: none;
+}
+
 .switch-label {
     width: 150px;
 }
@@ -78,6 +82,65 @@
 }
 
 /* toggle ends */
+/* toggle */
+
+.switch-label-mobile {
+    width: 150px;
+}
+
+.switch-label-mobile i {
+    margin-right: 5px;
+}
+
+.switch-toggle-mobile {
+    height: 40px;
+}
+
+.switch-toggle-mobile input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -2;
+}
+
+.switch-toggle-mobile input[type="checkbox"] + label {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0;
+    cursor: pointer;
+    box-shadow: inset -8px -8px 15px rgba(255, 255, 255, 0.6),
+        inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.switch-toggle-mobile input[type="checkbox"] + label::before {
+    position: absolute;
+    content: "OFF";
+    font-size: 13px;
+    text-align: center;
+    line-height: 25px;
+    top: 8px;
+    left: 8px;
+    width: 45px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #d1dad3;
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.5),
+        3px 3px 5px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease-in-out;
+}
+
+.switch-toggle-mobile input[type="checkbox"]:checked + label::before {
+    left: 50%;
+    content: "ON";
+    color: #fff;
+    background-color: var(--darkModeSecondary);
+    box-shadow: -3px -3px 5px rgba(255, 255, 255, 0.5),
+        3px 3px 5px var(--darkModeSecondary);
+}
+
+/* toggle ends */
 
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines {
@@ -109,6 +172,14 @@
     color: var(--primary);
 }
 
+.navbar-container .hamburger-lines .line.dark-mode {
+    background: var(--primary);
+}
+
+.navbar .menu-items.dark-mode {
+    background: var(--darkModePrimary);
+}
+
 .switch-toggle input[type="checkbox"] + label {
     box-shadow: inset -8px -8px 15px rgba(0, 0, 0, 0.1),
         inset 10px 10px 10px rgba(0, 0, 0, 0.25);
@@ -118,6 +189,25 @@
     box-shadow: inset -10px -10px 20px rgba(0, 0, 0, 0.17),
         inset 10px 10px 20px rgba(30, 30, 30, 0.33);
 }
+
+.contact_nav.dark-mode {
+    /* background: linear-gradient(
+        45deg,
+        var(--first),
+        var(--second),
+        var(--third)
+    ) !important; */
+    color: #000000 !important;
+    transition: all 1s ease-in-out !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5), -1px -1px 3px #4c63b0 !important;
+    box-shadow: 2px 2px 6px 0 #4c63b0, -4px -4px 6px rgba(0, 0, 0, 0.5) !important;
+}
+
+.switch-toggle-mobile input[type="checkbox"] + label {
+    box-shadow: inset -8px -8px 15px rgba(56, 53, 53, 0.6),
+        inset 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
 
 /* dark mode ends */
 
@@ -309,8 +399,14 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .navbar-container input[type="checkbox"]:checked ~ .logo {
         display: none;
+    }
+    .switch-holder {
+        display: none;
+    }
+    .switch-holder-mobile {
+        display: flex;
     }
 }

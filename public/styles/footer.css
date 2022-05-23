@@ -150,3 +150,38 @@ footer {
     color: var(--primary);
     /* text-decoration: none; */
 }
+
+
+@media (max-width: 600px) {
+    footer
+    {
+        height: fit-content;
+    }
+    .links-main-footer
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .links-footer a
+    {
+        width: auto;
+        margin-left: 5%;
+    }
+    .social-footer
+    {
+        width: 50%;
+        align-self: center;
+    }
+    .last-footer
+    {
+        text-align: center;
+        margin: 2% 0;
+        text-align: center;
+    }
+    .paragraph-footer
+    {
+        margin: 4% 0;
+        text-align: center;
+    }
+}
