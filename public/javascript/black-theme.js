@@ -36,6 +36,9 @@ const darkmode = () => {
     document.querySelectorAll(".about-image-img").forEach((element) => {
         element.classList.toggle("dark-mode");
     });
+    document.querySelectorAll(".about-image-img img").forEach((element) => {
+        element.classList.toggle("dark-mode");
+    });
     document.querySelectorAll(".tech-button").forEach((element) => {
         element.classList.toggle("dark-mode");
     });
