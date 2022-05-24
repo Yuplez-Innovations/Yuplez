@@ -2,6 +2,11 @@
 
 /* dark theme */
 
+body.dark-mode {
+    background: var(--darkModePrimary);
+    color: var(--primary);
+}
+
 .content-service h1.dark-mode {
     box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.17),
         10px 10px 20px rgba(30, 30, 30, 0.33),

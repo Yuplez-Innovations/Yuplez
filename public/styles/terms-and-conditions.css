@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.terms-and-conditions-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    background: var(--primary);
+}
+
+.terms-and-conditions-section.dark-mode {
+    background: var(--darkModePrimary);
+    color: var(--primary);
+}
+
+.terms-and-conditions-section h1, h2 , h3
+{
+    /* text-align: center; */
+    font-size: 2rem;
+    margin: 1% 0;
+}
+
+
+.terms-and-conditions-section a
+{
+    text-decoration: none;
+    padding: 0 1%;
+    transition: all 0.3s ease-in-out;
+    color: var(--darkModePrimary);
+}
+
+.terms-and-conditions-section a:hover {
+    color: var(--primary);
+    background: var(--darkModePrimary);
+    margin: 1% 0;
+    border-radius: 10px;
+}
+
+.welcome-tac
+{
+    display: flex;
+    flex-direction: column;
+    padding: 2%; 
+    font-size: 1.5rem;
+}
+
+.terms-and-conditions-section p {
+    padding-left: 2%;
+    margin: 2% 0;
+}
+
+.terms-and-conditions-section ul {
+    padding-left: 6%;
+}

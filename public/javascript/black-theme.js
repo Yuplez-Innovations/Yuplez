@@ -31,6 +31,7 @@ const darkmode = () => {
         .querySelector(".switch-toggle input[type='checkbox'] + label")
         .classList.toggle("dark-mode");
     document.querySelector(".main-page").classList.toggle("dark-mode");
+    document.querySelector(".bottom-section").classList.toggle("dark-mode");
     // document.querySelector(".main-page::after").classList.toggle("dark-mode");
     // about
     document.querySelectorAll(".about-image-img").forEach((element) => {
@@ -45,13 +46,7 @@ const darkmode = () => {
     document.querySelectorAll(".about-content-div").forEach((element) => {
         element.classList.toggle("dark-mode");
     });
-    // services
-    document.querySelectorAll(".content-service h1").forEach((element) => {
-        element.classList.toggle("dark-mode");
-    });
-    document.querySelectorAll(".content-service").forEach((element) => {
-        element.classList.toggle("dark-mode");
-    });
+    
     // contact us
     document
         .querySelector(".contact-us-section form")
@@ -82,6 +77,8 @@ const darkmode = () => {
     document.querySelectorAll(".content-div").forEach((element) => {
         element.classList.toggle("dark-mode");
     });
+
+    // terms and conditions
 
     // toggleDarkMode.classList.toggle("dark-mode");
 };

@@ -191,12 +191,6 @@
 }
 
 .contact_nav.dark-mode {
-    /* background: linear-gradient(
-        45deg,
-        var(--first),
-        var(--second),
-        var(--third)
-    ) !important; */
     color: #000000 !important;
     transition: all 1s ease-in-out !important;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5), -1px -1px 3px #4c63b0 !important;
@@ -237,6 +231,8 @@
 .menu-items {
     order: 2;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo {
     order: 1;

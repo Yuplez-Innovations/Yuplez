@@ -4,20 +4,17 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./public/styles/home.css" />
-        <link rel="stylesheet" href="./public/styles/services.css" />
         <link rel="stylesheet" href="./public/styles/nav.css" />
         <link rel="stylesheet" href="./public/styles/footer.css" />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
-        />
+        <link rel="stylesheet" href="./public/styles/services.css" />
+        <link rel="stylesheet" href="./public/styles/home.css" />
         <title>Yuplez | Home</title>
     </head>
 
     <body>
         <nav class="navbar">
             <div class="navbar-container container">
+                <h1 class="logo">Yuplez</h1>
                 <input type="checkbox" name="" id="" />
                 <div class="hamburger-lines">
                     <span class="line line1"></span>
@@ -28,6 +25,7 @@
                     <li><a class="nav_atag" href="#">Home</a></li>
                     <li><a class="nav_atag" href="#about-section">About</a></li>
                     <li><a class="nav_atag" href="./views/teams.html">Team</a></li>
+                    <li><a class="nav_atag" href="./views/services.html">Services</a></li>
                     <li>
                         <a class="contact_nav nav_atag" href="#contact-section">Let's Build</a>
                     </li>
@@ -39,18 +37,17 @@
                             </div>
                         </div>
                     </li>
+                    <div class="switch-holder">
+                        <div class="switch-toggle">
+                            <input class="toggle_button" type="checkbox" id="toggle_label">
+                            <label for="toggle_label"></label>
+                        </div>
+                    </div>
                 </ul>
 
-                <div class="switch-holder">
-                    <div class="switch-toggle">
-                        <input class="toggle_button" type="checkbox" id="toggle_label">
-                        <label for="toggle_label"></label>
-                    </div>
-                </div>
 
                 
 
-                <h1 class="logo">Yuplez</h1>
             </div>
         </nav>
 
@@ -69,6 +66,7 @@
                 <div class="main-read-more-div">
                     <a href="" class="main-read-more">Read More</a>
                 </div>
+                <span class="bottom-section"></span>
             </section>
             
 
@@ -103,7 +101,7 @@
                 </div>
             </section>
 
-            <section class="services-section" id="services-section">
+            <!-- <section class="services-section" id="services-section">
                 <div class="service-main-div">
                     <div class="service-div">
                         <div class="image-service">
@@ -128,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <section class="partners-section">
                 <h1>Want to be a Partner with extra benefits</h1>
@@ -174,29 +172,39 @@
         <footer>
             <div class="footer-div">
                 <div class="paragraph-footer">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <p>Stride towards Sucess</p>
                 </div>
                 <div class="contact-footer">
-                    
                     <span class="footer"></span>
                     <a href=""><span class="contact"></span>Contact US</a>
                 </div>
                 <div class="links-main-footer">
                     <div class="links-footer">
-                        <a href="">Home</a>
-                        <a href="">Services</a>
-                        <a href="">Teams</a>
-                        <a href="">Tech Stack</a>
+                        <a href="./index.html">Home</a>
+                        <a href="./views/services.html">Services</a>
+                        <a href="./views/teams.html">Teams</a>
+                        <a href="./views/tech-stack.html">Tech Stack</a>
                     </div>
                     <div class="social-footer">
-                        <a href=""><img src="https://img.icons8.com/ios/30/ffffff/instagram-new--v1.png"/></a>
-                        <a href=""><img src="https://img.icons8.com/ios/30/ffffff/linkedin-circled--v1.png"/></a>
-                        <a href=""><img src="https://img.icons8.com/ios/30/ffffff/facebook-new.png"/></a>
+                        <a href=""
+                            ><img
+                                src="https://img.icons8.com/ios/30/ffffff/instagram-new--v1.png"
+                        /></a>
+                        <a href=""
+                            ><img
+                                src="https://img.icons8.com/ios/30/ffffff/linkedin-circled--v1.png"
+                        /></a>
+                        <a href=""
+                            ><img
+                                src="https://img.icons8.com/ios/30/ffffff/facebook-new.png"
+                        /></a>
                     </div>
                 </div>
                 <div class="last-footer">
                     <div class="terms-footer">
-                        <a href="">Terms and Conditions</a>
+                        <a href="./views/terms-and-conditions.html"
+                            >Terms and Conditions</a
+                        >
                     </div>
                     <div class="copyrights-footer">
                         <p>Copyright © 2022. All rights reserved.</p>
