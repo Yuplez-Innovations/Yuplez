@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.thankYouDiv {
+    width: 75%;
+    height: 70%;
+    padding: 1% 2%;
+    border-radius: 20px;
+    background: linear-gradient(225deg, #cacaca, #f0f0f0);
+    box-shadow: -20px 20px 60px #bebebe, 20px -20px 60px #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--darkModePrimary);
+    /* text-shadow: 4px -4px 10px var(--primary), -4px 4px 10px var(--darkModePrimary); */
+}
+
+.thankYouDiv h1 {
+    font-size: 3rem;
+    color: var(--secondary);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.thankYouDiv p {
+    font-size: 1.5rem;
+    color: var(--secondary);
+    font-weight: 700;
+    text-align: center;
+}
+
+.thankYouDiv a {
+    font-size: 1.5rem;
+    color: var(--secondary);
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 2rem;
+    color: var(--darkModeSecondary);
+    /* box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.1),
+        -10px -10px 20px rgba(255, 255, 255, 1); */
+    text-align: center;
+    background: linear-gradient(
+        45deg,
+        var(--first),
+        var(--second),
+        var(--third)
+    );
+    color: #efeeee;
+    transition: all 1s ease-in-out;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5), -1px -1px 3px #4c63b0;
+    box-shadow: 2px 2px 6px 0 #4c63b0, -4px -4px 6px rgba(255, 255, 255, 0.5);
+    padding: 1% 5%;
+    border-radius: 20px;
+}
+
+.thankYouDiv a:hover {
+    box-shadow: inset 10px 10px 20px 0 rgba(0, 0, 0, 0.1),
+        -10px -10px 20px rgba(255, 255, 255, 1);
+}
