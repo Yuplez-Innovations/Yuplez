@@ -33,6 +33,13 @@
     color: var(--darkModePrimary);
 }
 
+.main-heading {
+    width: 100%;
+    font-size: 2.5rem;
+    margin: 3% 0;
+    text-align: center !important;
+}
+
 .terms-and-conditions-section a:hover {
     color: var(--primary);
     background: var(--darkModePrimary);
@@ -50,9 +57,22 @@
 
 .terms-and-conditions-section p {
     padding-left: 2%;
-    margin: 2% 0;
+    margin: 1% 0;
 }
 
 .terms-and-conditions-section ul {
     padding-left: 6%;
+}
+
+.heading-tag
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.main-ul
+{
+    list-style-type: none;
+    margin-bottom: 2%
 }
