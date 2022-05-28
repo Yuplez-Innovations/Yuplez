@@ -11,6 +11,8 @@ const darkmode = () => {
     document.querySelectorAll(".nav_atag").forEach((element) => {
         element.classList.toggle("dark-mode");
     });
+    document.querySelector(".dark-logo").classList.toggle("dark-mode");
+    
 
     document.querySelector(".thankYouDiv").classList.toggle("dark-mode");
     document.querySelector(".thankYouDiv a").classList.toggle("dark-mode");

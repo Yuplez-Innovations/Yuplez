@@ -24,9 +24,17 @@ const darkmode = () => {
     document.querySelector("body").classList.toggle("dark-mode");
     document.querySelector(".navbar").classList.toggle("dark-mode");
     document.querySelector(".logo").classList.toggle("dark-mode");
+    document.querySelector(".dark-logo").classList.toggle("dark-mode");
+    document.querySelector(".start-dark").classList.toggle("dark-mode");
+    document.querySelector(".start-light").classList.toggle("dark-mode");
+    
+    
     document.querySelectorAll(".nav_atag").forEach((element) => {
         element.classList.toggle("dark-mode");
     });
+
+
+
     document
         .querySelector(".switch-toggle input[type='checkbox'] + label")
         .classList.toggle("dark-mode");
