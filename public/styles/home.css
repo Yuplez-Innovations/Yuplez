@@ -1,211 +1,210 @@
-@import url("https://fonts.googleapis.com/css2?family=Julee&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
-    background: var(--primary);
+	background: var(--primary);
 }
 
 /* dark mode */
 
 body.dark-mode {
-    background: var(--darkModePrimary);
+	background: var(--darkModePrimary);
 }
 
 .about-image-img.dark-mode {
-    box-shadow: -10px -10px 20px var(--darkModeSecondary),
-        10px 10px 20px rgba(0, 0, 0, 0.33), 8px 8px 16px rgba(52, 49, 49, 0.27),
-        -8px -8px 16px rgba(0, 0, 0, 0.25);
+	box-shadow: -10px -10px 20px var(--darkModeSecondary),
+		10px 10px 20px rgba(0, 0, 0, 0.33), 8px 8px 16px rgba(52, 49, 49, 0.27),
+		-8px -8px 16px rgba(0, 0, 0, 0.25);
 }
 
 .about-image-img:hover.dark-mode {
-    box-shadow: rgba(32, 31, 31, 0.4) 5px 5px, rgba(32, 31, 31, 0.3) 10px 10px,
-        rgba(32, 31, 31, 0.2) 15px 15px, rgba(32, 31, 31, 0.1) 20px 20px,
-        rgba(32, 31, 31, 0.05) 25px 25px;
+	box-shadow: rgba(32, 31, 31, 0.4) 5px 5px, rgba(32, 31, 31, 0.3) 10px 10px,
+		rgba(32, 31, 31, 0.2) 15px 15px, rgba(32, 31, 31, 0.1) 20px 20px,
+		rgba(32, 31, 31, 0.05) 25px 25px;
 }
 .about-image-img img.dark-mode {
-    box-shadow: -10px -10px 20px var(--darkModeSecondary),
-        10px 10px 20px rgba(0, 0, 0, 0.33), 8px 8px 16px rgba(52, 49, 49, 0.27),
-        -8px -8px 16px rgba(0, 0, 0, 0.25);
+	box-shadow: -10px -10px 20px var(--darkModeSecondary),
+		10px 10px 20px rgba(0, 0, 0, 0.33), 8px 8px 16px rgba(52, 49, 49, 0.27),
+		-8px -8px 16px rgba(0, 0, 0, 0.25);
 }
 
 .about-image-img:hover img.dark-mode {
-    box-shadow: rgba(32, 31, 31, 0.4) 5px 5px, rgba(32, 31, 31, 0.3) 10px 10px,
-        rgba(32, 31, 31, 0.2) 15px 15px, rgba(32, 31, 31, 0.1) 20px 20px,
-        rgba(32, 31, 31, 0.05) 25px 25px;
+	box-shadow: rgba(32, 31, 31, 0.4) 5px 5px, rgba(32, 31, 31, 0.3) 10px 10px,
+		rgba(32, 31, 31, 0.2) 15px 15px, rgba(32, 31, 31, 0.1) 20px 20px,
+		rgba(32, 31, 31, 0.05) 25px 25px;
 }
 
 .about-content-div.dark-mode {
-    color: var(--primary);
+	color: var(--primary);
 }
 
 .tech-button.dark-mode {
-    background: rgba(30, 30, 30, 0.7);
-    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.17),
-        10px 10px 20px rgba(30, 30, 30, 0.33),
-        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
-        inset -8px -8px 16px rgba(30, 30, 30, 0.25);
-    color: var(--primary);
+	background: rgba(30, 30, 30, 0.7);
+	box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.17),
+		10px 10px 20px rgba(30, 30, 30, 0.33),
+		inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+		inset -8px -8px 16px rgba(30, 30, 30, 0.25);
+	color: var(--primary);
 }
 
 .tech-button:hover.dark-mode {
-    background: rgba(30, 30, 30, 0.7);
-    box-shadow: inset 4px 4px 6px 0 rgba(0, 0, 0, 0.1),
-        -4px -4px 6px rgba(30, 30, 30, 0.25);
+	background: rgba(30, 30, 30, 0.7);
+	box-shadow: inset 4px 4px 6px 0 rgba(0, 0, 0, 0.1),
+		-4px -4px 6px rgba(30, 30, 30, 0.25);
 }
 
 .contact-us-section form.dark-mode {
-    color: var(--primary);
+	color: var(--primary);
 }
 .div-form label.dark-mode {
-    color: var(--primary);
+	color: var(--primary);
 }
 
 .div-form input.dark-mode {
-    background: rgba(30, 30, 30, 0.15);
-    color: var(--primary);
-    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.17),
-        10px 10px 20px rgba(30, 30, 30, 0.33),
-        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
-        inset -8px -8px 16px rgba(30, 30, 30, 0.25);
+	background: rgba(30, 30, 30, 0.15);
+	color: var(--primary);
+	box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.17),
+		10px 10px 20px rgba(30, 30, 30, 0.33),
+		inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+		inset -8px -8px 16px rgba(30, 30, 30, 0.25);
 }
 
 .div-form textarea.dark-mode {
-    background: rgba(30, 30, 30, 0.15);
-    color: var(--primary);
-    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.17),
-        10px 10px 20px rgba(30, 30, 30, 0.33),
-        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
-        inset -8px -8px 16px rgba(30, 30, 30, 0.25);
+	background: rgba(30, 30, 30, 0.15);
+	color: var(--primary);
+	box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.17),
+		10px 10px 20px rgba(30, 30, 30, 0.33),
+		inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+		inset -8px -8px 16px rgba(30, 30, 30, 0.25);
 }
 
 .submit-button.dark-mode {
-    color: var(--primary) !important;
-    background: var(--darkModePrimary) !important;
-    box-shadow: -10px -10px 20px var(--darkModeSecondary),
-        10px 10px 20px rgba(0, 0, 0, 0.33),
-        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
-        inset -8px -8px 16px rgba(0, 0, 0, 0.25) !important;
+	color: var(--primary) !important;
+	background: var(--darkModePrimary) !important;
+	box-shadow: -10px -10px 20px var(--darkModeSecondary),
+		10px 10px 20px rgba(0, 0, 0, 0.33),
+		inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+		inset -8px -8px 16px rgba(0, 0, 0, 0.25) !important;
 }
 
 .submit-button:hover.dark-mode {
-    box-shadow: -10px -10px 20px var(--darkModeSecondary),
-        10px 10px 20px rgba(52, 49, 49, 0.27),
-        inset 8px 8px 16px rgba(0, 0, 0, 0.33),
-        inset -8px -8px 16px rgba(52, 49, 49, 0.27) !important;
+	box-shadow: -10px -10px 20px var(--darkModeSecondary),
+		10px 10px 20px rgba(52, 49, 49, 0.27),
+		inset 8px 8px 16px rgba(0, 0, 0, 0.33),
+		inset -8px -8px 16px rgba(52, 49, 49, 0.27) !important;
 }
 
 .image-div.dark-mode {
-    box-shadow: -10px -10px 20px var(--darkModeSecondary),
-        10px 10px 20px rgba(0, 0, 0, 0.33),
-        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
-        inset -8px -8px 16px rgba(0, 0, 0, 0.25);
+	box-shadow: -10px -10px 20px var(--darkModeSecondary),
+		10px 10px 20px rgba(0, 0, 0, 0.33),
+		inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+		inset -8px -8px 16px rgba(0, 0, 0, 0.25);
 }
 
 .shadow-div.dark-mode {
-    box-shadow: -10px -10px 20px var(--darkModeSecondary),
-        10px 10px 20px rgba(0, 0, 0, 0.33),
-        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
-        inset -8px -8px 16px rgba(0, 0, 0, 0.25);
+	box-shadow: -10px -10px 20px var(--darkModeSecondary),
+		10px 10px 20px rgba(0, 0, 0, 0.33),
+		inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+		inset -8px -8px 16px rgba(0, 0, 0, 0.25);
 }
 
 .social-icons a.dark-mode {
-    background: grey;
-    box-shadow: -10px -10px 20px var(--darkModeSecondary),
-        10px 10px 20px rgba(0, 0, 0, 0.33),
-        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
-        inset -8px -8px 16px rgba(0, 0, 0, 0.25);
+	background: grey;
+	box-shadow: -10px -10px 20px var(--darkModeSecondary),
+		10px 10px 20px rgba(0, 0, 0, 0.33),
+		inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+		inset -8px -8px 16px rgba(0, 0, 0, 0.25);
 }
 .social-icons a:hover.dark-mode {
-    box-shadow: inset -10px -10px 20px var(--darkModeSecondary),
-        inset 10px 10px 20px rgba(0, 0, 0, 0.33),
-        8px 8px 16px rgba(52, 49, 49, 0.27), -8px -8px 16px rgba(0, 0, 0, 0.25);
+	box-shadow: inset -10px -10px 20px var(--darkModeSecondary),
+		inset 10px 10px 20px rgba(0, 0, 0, 0.33),
+		8px 8px 16px rgba(52, 49, 49, 0.27), -8px -8px 16px rgba(0, 0, 0, 0.25);
 }
 
 .social-icons a img.dark-mode {
-    color: var(--primary);
+	color: var(--primary);
 }
 
 .content-div.dark-mode {
-    background: rgba(30, 30, 30, 0.4);
-    color: var(--primary);
-    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.17),
-        10px 10px 20px rgba(30, 30, 30, 0.33),
-        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
-        inset -8px -8px 16px rgba(30, 30, 30, 0.25);
+	background: rgba(30, 30, 30, 0.4);
+	color: var(--primary);
+	box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.17),
+		10px 10px 20px rgba(30, 30, 30, 0.33),
+		inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+		inset -8px -8px 16px rgba(30, 30, 30, 0.25);
 }
 
 .main-page.dark-mode {
-    background-color: #ffb999;
-    background-image: radial-gradient(
-            at 19% 82%,
-            hsla(17, 82%, 64%, 1) 0px,
-            transparent 50%
-        ),
-        radial-gradient(at 10% 77%, hsla(300, 65%, 61%, 1) 0px, transparent 50%),
-        radial-gradient(at 40% 30%, hsla(344, 93%, 65%, 1) 0px, transparent 50%),
-        radial-gradient(at 85% 42%, hsla(31, 62%, 65%, 1) 0px, transparent 50%),
-        radial-gradient(at 73% 92%, hsla(257, 89%, 66%, 1) 0px, transparent 50%),
-        radial-gradient(at 49% 51%, hsla(59, 83%, 68%, 1) 0px, transparent 50%),
-        radial-gradient(at 58% 31%, hsla(41, 86%, 73%, 1) 0px, transparent 50%);
+	background-color: #ffb999;
+	background-image: radial-gradient(
+			at 19% 82%,
+			hsla(17, 82%, 64%, 1) 0px,
+			transparent 50%
+		),
+		radial-gradient(at 10% 77%, hsla(300, 65%, 61%, 1) 0px, transparent 50%),
+		radial-gradient(at 40% 30%, hsla(344, 93%, 65%, 1) 0px, transparent 50%),
+		radial-gradient(at 85% 42%, hsla(31, 62%, 65%, 1) 0px, transparent 50%),
+		radial-gradient(at 73% 92%, hsla(257, 89%, 66%, 1) 0px, transparent 50%),
+		radial-gradient(at 49% 51%, hsla(59, 83%, 68%, 1) 0px, transparent 50%),
+		radial-gradient(at 58% 31%, hsla(41, 86%, 73%, 1) 0px, transparent 50%);
 }
 
 .bottom-section.dark-mode {
-    background-image: linear-gradient(transparent, transparent, var(--darkModePrimary));
-
+	background-image: linear-gradient(
+		transparent,
+		transparent,
+		var(--darkModePrimary)
+	);
 }
 
 /* dark mode ends */
 
 .main-page {
-    position: relative;
-    width: 100%;
-    /* height: 100vh; */
-    height: calc(100vh + 4rem);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: hsla(0, 0%, 88%, 1);
-    background-image: radial-gradient(
-            at 53% 47%,
-            hsla(108, 46%, 97%, 0.25) 0px,
-            transparent 50%
-        ),
-        radial-gradient(
-            at 11% 82%,
-            hsla(330, 100%, 81%, 1) 0px,
-            transparent 50%
-        ),
-        radial-gradient(at 92% 84%, hsla(190, 89%, 69%, 1) 0px, transparent 50%),
-        radial-gradient(at 92% 24%, hsla(268, 80%, 66%, 1) 0px, transparent 50%),
-        radial-gradient(at 5% 15%, hsla(18, 66%, 63%, 1) 0px, transparent 50%);
-    transition: all 0.5s ease-in-out;
+	position: relative;
+	width: 100%;
+	/* height: 100vh; */
+	height: calc(100vh + 4rem);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: hsla(0, 0%, 88%, 1);
+	background-image: radial-gradient(
+			at 53% 47%,
+			hsla(108, 46%, 97%, 0.25) 0px,
+			transparent 50%
+		),
+		radial-gradient(at 11% 82%, hsla(330, 100%, 81%, 1) 0px, transparent 50%),
+		radial-gradient(at 92% 84%, hsla(190, 89%, 69%, 1) 0px, transparent 50%),
+		radial-gradient(at 92% 24%, hsla(268, 80%, 66%, 1) 0px, transparent 50%),
+		radial-gradient(at 5% 15%, hsla(18, 66%, 63%, 1) 0px, transparent 50%);
 }
 
 .bottom-section {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 10rem;
-    background-image: linear-gradient(transparent, transparent, var(--primary));
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 10rem;
+	background-image: linear-gradient(transparent, transparent, var(--primary));
 }
 
 .main-para {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1.3rem;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1.3rem;
+	transition: all 0.5s linear;
 }
 
 .main-para b {
@@ -259,8 +258,8 @@ body.dark-mode {
 }
 
 .main-read-more:hover {
-    box-shadow: inset 4px 4px 6px 0 rgba(0, 0, 0, 0.1),
-        inset -4px -4px 6px var(--lightshadow);
+	box-shadow: inset 4px 4px 6px 0 rgba(0, 0, 0, 0.1),
+		inset -4px -4px 6px var(--lightshadow);
 }
 
 .tagline-h1 {
@@ -277,13 +276,13 @@ body.dark-mode {
 /* about section */
 
 .about-section {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
 }
 
 .about-section h1 {
@@ -297,114 +296,112 @@ body.dark-mode {
 }
 
 .about-div {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .about-div:nth-last-of-type(even) {
-    flex-direction: row-reverse;
+	flex-direction: row-reverse;
 }
 
 .about-image-div {
-    /* width: 20rem;
+	/* width: 20rem;
     height: 18rem; */
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-
 .about-image-img {
-    width: 50%;
-    height: 85%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    /* transform: translateY(-10%); */
+	width: 50%;
+	height: 85%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	/* transform: translateY(-10%); */
 }
 
 .about-image-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: -10px -10px 20px var(--lightshadow),
-        10px 10px 20px rgba(158, 158, 158, 0.33),
-        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
-        inset -8px -8px 16px rgba(255, 255, 255, 0.25);
-    transition: all 0.3s ease-in-out;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+	box-shadow: -10px -10px 20px var(--lightshadow),
+		10px 10px 20px rgba(158, 158, 158, 0.33),
+		inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+		inset -8px -8px 16px rgba(255, 255, 255, 0.25);
 }
 
 .about-image-img:hover {
-    box-shadow: rgba(158, 158, 158, 0.4) 5px 5px,
-        rgba(158, 158, 158, 0.3) 10px 10px, rgba(158, 158, 158, 0.2) 15px 15px,
-        rgba(158, 158, 158, 0.1) 20px 20px, rgba(158, 158, 158, 0.05) 25px 25px;
+	box-shadow: rgba(158, 158, 158, 0.4) 5px 5px,
+		rgba(158, 158, 158, 0.3) 10px 10px, rgba(158, 158, 158, 0.2) 15px 15px,
+		rgba(158, 158, 158, 0.1) 20px 20px, rgba(158, 158, 158, 0.05) 25px 25px;
 }
 
 .about-content-div {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 3% 2%;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3% 2%;
 }
 
 .about-content-div p {
-    width: 70%;
-    text-align: center;
-    font-size: 1.1rem;
+	width: 70%;
+	text-align: center;
+	font-size: 1.1rem;
 }
 
 .tech-button {
-    text-decoration: none;
-    padding: 10px 15px;
-    margin: 0px 10px;
-    border-radius: 10px;
-    background: var(--primary);
-    margin: 1% 0;
-    color: #000;
-    box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.1),
-        -4px -4px 6px rgba(255, 255, 255, 1);
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease-in-out;
+	text-decoration: none;
+	padding: 10px 15px;
+	margin: 0px 10px;
+	border-radius: 10px;
+	background: var(--primary);
+	margin: 1% 0;
+	color: #000;
+	box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.1),
+		-4px -4px 6px rgba(255, 255, 255, 1);
+	text-decoration: none;
+	font-weight: 500;
+	transition: color 0.3s ease-in-out;
 }
 
 .tech-button:hover {
-    box-shadow: inset 4px 4px 6px 0 rgba(0, 0, 0, 0.1),
-        -4px -4px 6px rgba(255, 255, 255, 1);
+	box-shadow: inset 4px 4px 6px 0 rgba(0, 0, 0, 0.1),
+		-4px -4px 6px rgba(255, 255, 255, 1);
 }
 
 .tech-button {
-    background: linear-gradient(
-        45deg,
-        var(--first),
-        var(--second),
-        var(--third)
-    ) !important;
-    color: #efeeee !important;
-    transition: all 1s ease-in-out !important;
-    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5), -1px -1px 3px #4c63b0 !important;
-    box-shadow: 2px 2px 6px 0 #4c63b0, -4px -4px 6px rgba(255, 255, 255, 0.5) !important;
+	background: linear-gradient(
+		45deg,
+		var(--first),
+		var(--second),
+		var(--third)
+	) !important;
+	color: #efeeee !important;
+	transition: all 1s ease-in-out !important;
+	text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5), -1px -1px 3px #4c63b0 !important;
+	box-shadow: 2px 2px 6px 0 #4c63b0, -4px -4px 6px rgba(255, 255, 255, 0.5) !important;
 }
 
 .tech-button:hover {
-    background: linear-gradient(
-        var(--first),
-        var(--second),
-        var(--third)
-    ) !important;
+	background: linear-gradient(
+		var(--first),
+		var(--second),
+		var(--third)
+	) !important;
 }
 
 /* partners */
@@ -440,21 +437,21 @@ body.dark-mode {
 /* contact us */
 
 .contact-us-section {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .contact-us-section form {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .contact-us-section form h1 {
@@ -468,245 +465,243 @@ body.dark-mode {
 }
 
 .div-form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 1%;
-    padding: 0 5%;
-    font-size: 1.5rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 1%;
+	padding: 0 5%;
+	font-size: 1.5rem;
 }
 
 .div-form label {
-    font-size: 1.2rem;
-    color: #000;
+	font-size: 1.2rem;
+	color: #000;
 }
 
 .div-form input {
-    width: 100%;
-    /* height: 3rem; */
-    padding: 2% 3%;
-    margin: 1% 0;
-    box-shadow: inset 10px 10px 20px rgba(52, 49, 49, 0.27),
-        inset -10px -10px 20px rgba(255, 255, 255, 0.25);
-    border-radius: 15px;
-    color: #000;
-    border: none;
-    outline: none;
+	width: 100%;
+	/* height: 3rem; */
+	padding: 2% 3%;
+	margin: 1% 0;
+	box-shadow: inset 10px 10px 20px rgba(52, 49, 49, 0.27),
+		inset -10px -10px 20px rgba(255, 255, 255, 0.25);
+	border-radius: 15px;
+	color: #000;
+	border: none;
+	outline: none;
 }
 
 .submit-button {
-    width: 30% !important;
-    /* height: 3rem; */
-    padding: 2%;
-    margin: 1% 0;
-    box-shadow: inset 10px 10px 20px rgba(52, 49, 49, 0.27),
-        inset -10px -10px 20px rgba(255, 255, 255, 0.25);
-    border-radius: 15px;
-    color: #000;
-    border: none;
-    align-self: center;
-    outline: none;
-    font-size: 1.1rem;
-    cursor: pointer;
+	width: 30% !important;
+	/* height: 3rem; */
+	padding: 2%;
+	margin: 1% 0;
+	box-shadow: inset 10px 10px 20px rgba(52, 49, 49, 0.27),
+		inset -10px -10px 20px rgba(255, 255, 255, 0.25);
+	border-radius: 15px;
+	color: #000;
+	border: none;
+	align-self: center;
+	outline: none;
+	font-size: 1.1rem;
+	cursor: pointer;
 }
 .div-form textarea {
-    width: 100%;
-    height: 8rem;
-    padding: 3%;
-    margin: 1% 0;
-    box-shadow: inset 10px 10px 20px rgba(52, 49, 49, 0.27),
-        inset -10px -10px 20px rgba(255, 255, 255, 0.25);
-    border-radius: 15px;
-    color: #000;
-    border: none;
-    outline: none;
-    resize: none;
+	width: 100%;
+	height: 8rem;
+	padding: 3%;
+	margin: 1% 0;
+	box-shadow: inset 10px 10px 20px rgba(52, 49, 49, 0.27),
+		inset -10px -10px 20px rgba(255, 255, 255, 0.25);
+	border-radius: 15px;
+	color: #000;
+	border: none;
+	outline: none;
+	resize: none;
 }
 
 .submit-button:hover {
-    box-shadow: 10px 10px 20px rgba(52, 49, 49, 0.27),
-        -10px -10px 20px rgba(255, 255, 255, 0.25);
+	box-shadow: 10px 10px 20px rgba(52, 49, 49, 0.27),
+		-10px -10px 20px rgba(255, 255, 255, 0.25);
 }
 
 /* teams section */
 
 .teams-section {
-    position: relative;
-    width: 100%;
-    height: 130vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+	position: relative;
+	width: 100%;
+	height: 130vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .main-div {
-    position: absolute;
-    width: 16rem;
-    height: 20rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    z-index: 1;
+	position: absolute;
+	width: 16rem;
+	height: 20rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+	z-index: 1;
 }
 
 .main-div:nth-child(1) {
-    top: 5%;
-    left: 5%;
+	top: 5%;
+	left: 5%;
 }
 .main-div:nth-child(2) {
-    top: 5%;
-    right: 5%;
+	top: 5%;
+	right: 5%;
 }
 .main-div:nth-child(3) {
-    bottom: 5%;
-    left: 5%;
+	bottom: 5%;
+	left: 5%;
 }
 .main-div:nth-child(4) {
-    bottom: 5%;
-    right: 5%;
+	bottom: 5%;
+	right: 5%;
 }
 
 .content-div {
-    position: relative;
-    width: 100%;
-    height: 65%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 24px 24px 64px #bebebe,
-        -24px -24px 64px rgba(207, 206, 206, 0.3);
-    border-radius: 20px;
+	position: relative;
+	width: 100%;
+	height: 65%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 24px 24px 64px #bebebe, -24px -24px 64px rgba(207, 206, 206, 0.3);
+	border-radius: 20px;
 }
 
 .image-div {
-    position: absolute;
-    width: 10rem;
-    height: 10rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.62),
-        10px 10px 20px rgba(158, 158, 158, 0.33),
-        inset 8px 8px 16px rgba(52, 49, 49, 0.27),
-        inset -8px -8px 16px rgba(255, 255, 255, 0.25);
-    top: 0%;
-    left: 10%;
-    border-radius: 50%;
-    z-index: 3;
-    transform: translateY(-10%);
+	position: absolute;
+	width: 10rem;
+	height: 10rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.62),
+		10px 10px 20px rgba(158, 158, 158, 0.33),
+		inset 8px 8px 16px rgba(52, 49, 49, 0.27),
+		inset -8px -8px 16px rgba(255, 255, 255, 0.25);
+	top: 0%;
+	left: 10%;
+	border-radius: 50%;
+	z-index: 3;
+	transform: translateY(-10%);
 }
 
 .shadow-div {
-    content: "";
-    position: absolute;
-    width: 10rem;
-    height: 10rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transform: scale(1.2);
-    /* top: 0%;
+	content: '';
+	position: absolute;
+	width: 10rem;
+	height: 10rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transform: scale(1.2);
+	/* top: 0%;
     left: 0%; */
-    border-radius: 50%;
-    box-shadow: -10px -10px 20px rgba(158, 158, 158, 0.33),
-        10px 10px 20px rgba(255, 255, 255, 0.25),
-        8px 8px 16px rgba(52, 49, 49, 0.27),
-        -8px -8px 16px rgba(255, 255, 255, 0.62);
-    z-index: 2;
+	border-radius: 50%;
+	box-shadow: -10px -10px 20px rgba(158, 158, 158, 0.33),
+		10px 10px 20px rgba(255, 255, 255, 0.25),
+		8px 8px 16px rgba(52, 49, 49, 0.27),
+		-8px -8px 16px rgba(255, 255, 255, 0.62);
+	z-index: 2;
 }
 
 .image-div img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
 }
 
 .social-icons {
-    width: 100%;
-    height: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 2% 0;
-    padding-top: 12%;
+	width: 100%;
+	height: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 2% 0;
+	padding-top: 12%;
 }
 
 .social-icons a {
-    width: 3rem;
-    height: 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 1%;
-    border-radius: 50%;
-    box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+	width: 3rem;
+	height: 3rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 1%;
+	border-radius: 50%;
+	box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
 }
 
 .social-icons a:hover {
-    box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+	box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
 }
 
 @media (max-width: 1000px) {
-    .contact-us-section form
-    {
-        width: 70%;
-    }
+	.contact-us-section form {
+		width: 70%;
+	}
 }
 
 @media (max-width: 600px) {
-    /* first page */
+	/* first page */
 
-    .main-page {
-        height: 100vh;
-    }
-    .main-para {
-        width: 90%;
-    }
-    .main-read-more {
-        padding: 3% 8%;
-    }
+	.main-page {
+		height: 100vh;
+	}
+	.main-para {
+		width: 90%;
+	}
+	.main-read-more {
+		padding: 3% 8%;
+	}
 
-    /* about */
+	/* about */
 
-    .about-section {
-        height: fit-content;
-    }
-    .about-div {
-        flex-direction: column !important;
-    }
-    .about-content-div {
-        width: 100%;
-        padding: 10% 2%;
-    }
-    .about-content-div p {
-        width: 90%;
-    }
-    .about-image-img {
-        width: 15rem;
-        height: 12rem;
-    }
+	.about-section {
+		height: fit-content;
+	}
+	.about-div {
+		flex-direction: column !important;
+	}
+	.about-content-div {
+		width: 100%;
+		padding: 10% 2%;
+	}
+	.about-content-div p {
+		width: 90%;
+	}
+	.about-image-img {
+		width: 15rem;
+		height: 12rem;
+	}
 
-    /* contact */
+	/* contact */
 
-    .contact-us-section form {
-        width: 90%;
-    }
-    .div-form input {
-        height: 3rem;
-    }
-    .submit-button {
-        width: 50% !important;
-        height: 3rem;
-    }
+	.contact-us-section form {
+		width: 90%;
+	}
+	.div-form input {
+		height: 3rem;
+	}
+	.submit-button {
+		width: 50% !important;
+		height: 3rem;
+	}
 }
