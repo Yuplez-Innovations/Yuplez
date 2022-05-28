@@ -9,7 +9,7 @@
 //     }
 // });
 
-const mainDiv1 = document.querySelectorAll(".main-div")[0];
+// const mainDiv1 = document.querySelectorAll(".main-div")[0];
 const mainDiv2 = document.querySelectorAll(".main-div")[1];
 const mainDiv3 = document.querySelectorAll(".main-div")[2];
 const mainDiv4 = document.querySelectorAll(".main-div")[3];
@@ -24,7 +24,7 @@ window.addEventListener("load", () => {
         i++;
     }
     setTimeout(() => {
-        mainDiv1.style.order = arr[0];
+        // mainDiv1.style.order = arr[0];
         mainDiv2.style.order = arr[1];
         mainDiv3.style.order = arr[2];
         mainDiv4.style.order = arr[3];

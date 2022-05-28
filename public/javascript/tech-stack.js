@@ -33,7 +33,8 @@ const darkmode = () => {
     // document.querySelector(".main-page").classList.toggle("dark-mode");
     // document.querySelector(".main-page::after").classList.toggle("dark-mode");
     
-
+    document.querySelector(".dark-logo").classList.toggle("dark-mode");
+    
 
     document.querySelectorAll(".tech-stack").forEach((element) => {
         element.classList.toggle("dark-mode");

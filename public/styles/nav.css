@@ -1,10 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: "Astarin";
+    src: url("../fonts/FTP_-_Astarin.otf");
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Nunito Sans", sans-serif;
+}
+
+p,
+span,
+a,
+::placeholder {
+    /* font-family: "Andada Pro", serif; */
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    text-align: left !important;
+    word-spacing: 5px;
+    line-height: 1.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font-family: "Abril Fatface", cursive !important; */
+    font-family: 'Alegreya Sans', sans-serif !important;
+    font-style: italic;
 }
 
 :root {
@@ -202,6 +234,21 @@
         inset 10px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
+.dark-logo.dark-mode {
+    display: block;
+}
+
+.light-logo.dark-mode {
+    display: none;
+}
+
+.start-dark.dark-mode {
+    display: block;
+}
+
+.start-light.dark-mode {
+    display: none;
+}
 
 /* dark mode ends */
 
@@ -236,7 +283,16 @@
 }
 .logo {
     order: 1;
-    font-size: 2.3rem;
+    width: 10rem;
+    object-fit: contain;
+}
+
+.dark-logo {
+    display: none;
+}
+
+.light-logo {
+    display: block;
 }
 
 .menu-items li {
@@ -250,8 +306,8 @@
     border-radius: 10px;
     background: var(--primary);
     color: #000;
-    box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.1),
-        -4px -4px 6px rgba(255, 255, 255, 1);
+    /* box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.1),
+        -4px -4px 6px rgba(255, 255, 255, 1); */
 }
 
 .contact_nav {
@@ -283,8 +339,8 @@
 }
 
 .nav_atag:hover {
-    box-shadow: inset 4px 4px 6px 0 rgba(0, 0, 0, 0.1),
-        -4px -4px 6px rgba(255, 255, 255, 1);
+    /* background: linear-gradient(145deg, #cacaca, #f0f0f0); */
+    box-shadow: 10px 10px 15px #bababa, -10px -10px 15px #ffffff;
 }
 
 @media (max-width: 847px) {
