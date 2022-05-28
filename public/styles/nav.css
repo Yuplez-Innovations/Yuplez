@@ -39,6 +39,10 @@ h6 {
     font-style: italic;
 }
 
+button, input, a {
+    outline: none;
+}
+
 :root {
     --primary: #efeeee;
     --accent: #3696b5;
