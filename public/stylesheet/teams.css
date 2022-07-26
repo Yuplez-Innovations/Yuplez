@@ -9,7 +9,7 @@
     position: fixed;
     width: 80px;
     height: 80px;
-    border: 1px solid white;
+    border: 1px solid #1e1e1e;
     border-radius: 50%;
     background: #ffffff;
     display: flex;
@@ -29,7 +29,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #1e1e1e;
+    background: #efefef;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,7 +58,7 @@
     text-align: center;
     font-size: 18px;
     /* background: #fff; */
-    border: 2px solid #ffffff;
+    border: 2px solid #1e1e1e;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -72,7 +72,7 @@
 }
 
 .team-intro {
-    width: 60% !important;
+    width: 40% !important;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -107,12 +107,12 @@
 }
 
 .slide-intro-div h1 {
-    width: 50%;
+    /* width: 50%; */
     text-align: left;
     font-size: 5rem;
     padding-left: 3rem;
     padding-top: 3rem;
-    color: #ffffff;
+    color: #1e1e1e;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
     font-weight: 100;
@@ -120,8 +120,8 @@
 
 .slide-intro-div p {
     font-size: 1.1rem;
-    color: #ffffff;
-    width: 65%;
+    color: #1e1e1e;
+    width: 80%;
     text-align: left;
     padding-right: 3rem;
     padding-bottom: 3rem;
@@ -162,7 +162,7 @@
 }
 
 .team-content {
-    color: #efefef;
+    color: #1e1e1e;
     padding: 1rem 0;
     display: flex;
     flex-direction: column;

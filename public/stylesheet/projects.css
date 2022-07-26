@@ -6,7 +6,7 @@
 
 .projects-section {
     position: relative;
-    background: #1e1e1e;
+    background: #efefef;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,7 +87,7 @@
     height: 80%;
     display: flex;
     font-size: 1.3rem;
-    color: white;
+    color: #1e1e1e;
     flex-direction: column;
     justify-content: center;
     align-items: center;

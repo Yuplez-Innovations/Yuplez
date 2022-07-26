@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     height: 18rem;
-    background: #000;
+    background: #1e1e1e;
     color: #efefef;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #1e1e1e;
+    background: #efefef;
     border-radius: 50%;
     bottom: -15%;
     left: -5%;
@@ -33,7 +33,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #1e1e1e;
+    background: #efefef;
     border-radius: 50%;
     top: -15%;
     right: -5%;

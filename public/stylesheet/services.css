@@ -71,7 +71,7 @@ body {
 
 .services-content {
     background: #111111;
-    color: #5567c9;
+    color: #9161ab;
     display: flex;
     flex-direction: row;
     z-index: 1;
@@ -96,7 +96,7 @@ body {
 }
 
 .services-text {
-    background: #5567c9;
+    background: #9161ab;
     color: #1e1e1e;
     align-items: center;
     z-index: 2;

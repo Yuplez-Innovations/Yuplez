@@ -22,7 +22,7 @@
 
 .nav {
     position: fixed;
-    color: #efefef;
+    color: #1e1e1e;
     top: 0;
     left: 0;
     z-index: 1000;
@@ -50,7 +50,7 @@
 }
 
 .social-media-section a {
-    color: #efefef;
+    color: #1e1e1e;
     mix-blend-mode: difference;
     text-decoration: none;
     transform: rotate(90deg);
@@ -59,12 +59,12 @@
 
 body {
     position: relative;
-    background-color: #1e1e1e;
+    background-color: #efefef;
 }
 
 .nav-a {
     font-size: 2rem;
-    color: #efefef;
+    color: #1e1e1e;
     text-decoration: none;
     margin: 2rem;
 }
@@ -78,16 +78,16 @@ body {
 }
 
 .nav-container {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #1e1e1e;
+    background-color: #efefef;
     z-index: 100;
-    transform: translateY(-100%);
+    transform: translateX(-100%);
     /* transform: translateY(0); */
     transition: all 0.5s ease-in-out;
     overflow: hidden;
@@ -110,14 +110,14 @@ body {
     width: 100%;
     height: 4rem;
     font-size: 1.5rem;
-    color: #efefef;
+    color: #1e1e1e;
     text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding-top: 1rem;
-    border-bottom: 1px dotted #efefef;
+    border-bottom: 1px dotted #1e1e1e;
 }
 
 /* mouse hover boxes */
@@ -134,7 +134,7 @@ body {
     opacity: 0;
     user-select: none;
     pointer-events: none;
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke: 1px #1e1e1e;
     color: transparent;
     transition: opacity 0.3s linear;
 }
