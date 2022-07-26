@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #272626;
+    z-index: 5;
+    /* background: url("../images/Logo/light_blue_gradient.png") center/cover no-repeat; */
+}
+
+.main-div {
+    position: absolute;
+    width: 25%;
+    /* width: 100%; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-15%);
+}
+
+.center-div {
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    text-align: center;
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #efefef;
+    transform: translateY(100%);
+}
+
+.center-div h1 {
+    color: transparent;
+    background: url("../images/Logo/gold_texture.webp") center/cover no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.main-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.bottom-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    z-index: 1;
+    padding: 2rem;
+}
+
+.bottom-div h1 {
+    font-size: 2rem;
+    color: #efefef;
+}
+
+.main-div-content1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-div-content1 p {
+    font-size: 1.1rem;
+    color: #efefef;
+    width: 60%;
+    margin-top: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.main-div-content2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-div-content2 p {
+    font-size: 1.1rem;
+    color: #efefef;
+    letter-spacing: 1px;
+    width: 70%;
+    text-align: right;
+}

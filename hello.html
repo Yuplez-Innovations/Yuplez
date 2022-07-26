@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .hello {
+            height: 100vh;
+            width: 100vw;
+        }
+    </style>
+    <body>
+        <!-- <section class="container">
+            <div style="background-color: red" class="hello"></div>
+            <div style="background-color: rebeccapurple" class="hello"></div>
+            <div style="background-color: green" class="hello"></div>
+            <div style="background-color: #000000" class="hello"></div>
+            <div style="background-color: blueviolet" class="hello"></div>
+            <div style="background-color: blue" class="hello"></div>
+        </section> -->
+
+        <button class="button">Hello</button>
+
+        <div
+            class="box"
+            style="width: 50px; height: 50px; background-color: red"
+        ></div>
+
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script> -->
+
+        <!-- <script>
+            gsap.registerPlugin(ScrollTrigger);
+
+            let sections = gsap.utils.toArray(".hello");
+
+            // horizontal scroll
+            gsap.to(sections, {
+                xPercent: -100 * (sections.length - 1),
+                ease: none,
+                scrollTrigger: {
+                    trigger: ".container",
+                    pin: true,
+                    scrub: 1,
+                    snap: 1 / (sections.length - 1),
+                    end: () =>
+                        "+=" + document.querySelector(".container").offsetWidth,
+                },
+            });
+        </script> -->
+
+        <script>
+            // longpress
+
+            let button = document.querySelector(".button");
+            let box = document.querySelector(".box");
+            let counter = 0;
+            let interval;
+            let longpress = false;
+
+            button.addEventListener("mousedown", () => {
+                longpress = true;
+                interval = setInterval(() => {
+                    counter++;
+                    console.log(counter);
+                    if (counter == 1) {
+                        box.style.backgroundColor = "blue";
+                    }
+                }, 1000);
+            });
+            button.addEventListener("mouseup", () => {
+                longpress = false;
+                clearInterval(interval);
+                counter = 0;
+            });
+            button.addEventListener("mouseleave", () => {
+                longpress = false;
+                clearInterval(interval);
+                counter = 0;
+            });
+
+            // button.addEventListener("touchstart", () => {
+            //     longpress = true;
+            //     interval = setInterval(() => {
+            //         counter++;
+            //         console.log(counter);
+            //     }, 1000);
+            // });
+            // button.addEventListener("touchend", () => {
+            //     longpress = false;
+            //     clearInterval(interval);
+            //     counter = 0;
+            // });
+            // button.addEventListener("touchleave", () => {
+            //     longpress = false;
+            //     clearInterval(interval);
+            //     counter = 0;
+            // });
+
+            // button.addEventListener("click", () => {
+            //     if (longpress) {
+            //         console.log("longpress");
+            //     } else {
+            //         console.log("click");
+            //     }
+            // });
+
+            // swipe
+        </script>
+    </body>
+</html>
