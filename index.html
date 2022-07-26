@@ -35,11 +35,11 @@
                     <h1 class="changing-text">Home</h1>
                 </div>
                 <div class="container-div">
-                    <a class="navAtag navAtag1" href="">Home</a>
-                    <a class="navAtag navAtag2" href="">About</a>
-                    <a class="navAtag navAtag3" href="">Contact</a>
-                    <a class="navAtag navAtag4" href="">Login</a>
-                    <a class="navAtag navAtag5" href="">Register</a>
+                    <a class="navAtag navAtag1" href="#home">Home</a>
+                    <a class="navAtag navAtag2" href="#services">Services</a>
+                    <a class="navAtag navAtag3" href="./views/contact.html">Contact</a>
+                    <a class="navAtag navAtag4" href="./views/projects.html">Projects</a>
+                    <!-- <a class="navAtag navAtag5" href="">Register</a> -->
                 </div>
             </section>
             <section class="social-media-section">
@@ -49,42 +49,37 @@
             </section>
         </nav>
 
-        <section class="main-section">
-            <div class="main-div">
-                <img
-                    src="./public/images/Logo/Yuplez-final-logo-transparent.png"
-                    alt=""
-                />
-            </div>
-            <div class="center-div">
-                <h1>Stride towards Success</h1>
-            </div>
-            <div class="bottom-div">
-                <div class="main-div-content1">
-                    <h1>Ready To make Challenges</h1>
-                    <p>
-                        Yuplez is a platform for you to make challenges and
-                        compete with your friends.
-                    </p>
+        <section class="main-section" id="home">
+            <div class="main-all-section">
+                <div class="heading-main-div">
+                    <div class="heading-content">
+                        <h1 class="heading-sub">Stride Towards Success</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Id voluptate eligendi quos accusamus alias
+                            velit, reprehenderit ad quisquam
+                        </p>
+                    </div>
+                    <div class="heading-button">
+                        <a class="heading-atag" href="">Get Started</a>
+                        <a class="heading-atag" href="">Contact Us</a>
+                    </div>
                 </div>
-                <div class="main-div-content2">
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Unde, dignissimos aliquam architecto aspernatur
-                        dolorum consequuntur fugit numquam voluptates!
-                        Similique.
-                    </p>
+                <div class="image-main-section">
+                    <div class="main-image-heading"></div>
+                    <div class="image-heading1"></div>
+                    <div class="image-heading2"></div>
                 </div>
             </div>
         </section>
 
-        <section class="services-section">
-            <video autoplay loop muted class="video-services">
+        <section class="services-section" id="services">
+            <!-- <video autoplay loop muted class="video-services">
                 <source
                     src="./public/images/videos/videos.mp4"
                     type="video/mp4"
                 />
-            </video>
+            </video> -->
             <div class="services-main-div">
                 <div class="services-div">
                     <div
@@ -239,7 +234,7 @@
             </div>
         </section>
 
-        <section class="team-section">
+        <section class="team-section" id="team">
             <section class="cursor">
                 <div class="mouse-cursor">
                     <p>DRAG</p>
@@ -337,58 +332,6 @@
                     <div class="swiper-slide swiper-slide-mobile"></div>
                 </div>
                 <!-- <div class="swiper-pagination"></div> -->
-            </div>
-        </section>
-
-        <section class="contact-section">
-            <div class="contact-main-div">
-                <div class="contact-div">
-                    <h1>Let's start a project together</h1>
-                </div>
-                <div class="form-div">
-                    <form action="">
-                        <div class="label-div">
-                            <label for="fullName">What's your name?</label>
-                            <input
-                                type="text"
-                                id="fullName"
-                                name="fullName"
-                                placeholder="Tony Stark"
-                            />
-                        </div>
-                        <div class="label-div">
-                            <label for="email">What's your email?</label>
-                            <input
-                                type="email"
-                                id="email"
-                                name="email"
-                                placeholder="abc@gmail.com"
-                            />
-                        </div>
-                        <div class="label-div">
-                            <label for="serviceForm"
-                                >What services are you looking for?</label
-                            >
-                            <input
-                                type="text"
-                                id="serviceForm"
-                                name="serviceForm"
-                                placeholder="Web Development , Mobile Development"
-                            />
-                        </div>
-                        <div class="label-div">
-                            <label for="message">What's your message?</label>
-                            <textarea
-                                id="message"
-                                name="message"
-                                placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iste illum, quod nobis ipsam porro sit similique in reiciendis accusantium recusandae id sunt repellat molestias nulla aliquid! Cum, consequuntur ipsam."
-                            ></textarea>
-                        </div>
-                        <div class="label-div">
-                            <button type="submit">Submit</button>
-                        </div>
-                    </form>
-                </div>
             </div>
         </section>
 

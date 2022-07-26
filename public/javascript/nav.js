@@ -33,10 +33,10 @@ const changeTextStyle = (name) => {
 }
 
 navAtag1.addEventListener("mousemove", () => changeTextStyle("Home"))
-navAtag2.addEventListener("mousemove", () => changeTextStyle("About"))
+navAtag2.addEventListener("mousemove", () => changeTextStyle("Services"))
 navAtag3.addEventListener("mousemove", () => changeTextStyle("Contact"))
-navAtag4.addEventListener("mousemove", () => changeTextStyle("Login"))
-navAtag5.addEventListener("mousemove", () => changeTextStyle("Register"))
+navAtag4.addEventListener("mousemove", () => changeTextStyle("Projects"))
+// navAtag5.addEventListener("mousemove", () => changeTextStyle("Register"))
 
 
 

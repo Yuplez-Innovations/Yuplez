@@ -5,101 +5,99 @@
     font-family: "Roboto", sans-serif;
 }
 
-.main-section {
-    position: relative;
+.main-all-section {
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: #efefef;
+}
+
+.heading-main-div {
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3rem;
+}
+
+.heading-sub {
+    font-size: 3rem;
+    width: 100%;
+}
+
+.heading-main-div p {
+    font-size: 1.1rem;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.heading-button {
+    width: 100%;
+    /* height: 50%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.heading-atag {
+    text-decoration: none;
+    color: #efefef;
+    padding: 3%;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.image-main-section {
+    position: relative;
+    width: 65%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #272626;
-    z-index: 5;
-    /* background: url("../images/Logo/light_blue_gradient.png") center/cover no-repeat; */
 }
 
-.main-div {
+.main-image-heading {
     position: absolute;
-    width: 25%;
-    /* width: 100%; */
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(-15%);
-}
-
-.center-div {
-    position: absolute;
-    width: 100%;
-    /* height: 100%; */
-    text-align: center;
-    display: flex;
-    font-size: 1.5rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #efefef;
-    transform: translateY(100%);
-}
-
-.center-div h1 {
-    color: transparent;
-    background: url("../images/Logo/gold_texture.webp") center/cover no-repeat;
-    background-clip: text;
-    -webkit-background-clip: text;
-}
-
-.main-div img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.bottom-div {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-    z-index: 1;
-    padding: 2rem;
-}
-
-.bottom-div h1 {
-    font-size: 2rem;
-    color: #efefef;
-}
-
-.main-div-content1 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.main-div-content1 p {
-    font-size: 1.1rem;
-    color: #efefef;
     width: 60%;
-    margin-top: 0.5rem;
-    letter-spacing: 1px;
-}
-
-.main-div-content2 {
-    width: 100%;
+    height: 60%;
+    background: #000;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    transform: translate(-10%, -10%);
+    z-index: 1;
 }
 
-.main-div-content2 p {
-    font-size: 1.1rem;
-    color: #efefef;
-    letter-spacing: 1px;
-    width: 70%;
-    text-align: right;
+.image-heading1 {
+    position: absolute;
+    width: 18rem;
+    height: 70%;
+    background: #efefef;
+    transform: translate(80%, 20%);
+    z-index: 2;
+}
+
+.image-heading2 {
+    position: absolute;
+    width: 18rem;
+    height: 40%;
+    background: #efefef;
+    transform: translate(-85%, 60%);
+    z-index: 3;
 }
