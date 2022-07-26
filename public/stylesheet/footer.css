@@ -1,0 +1,57 @@
+.footer-main {
+    position: relative;
+    width: 100%;
+    height: 18rem;
+    background: #000;
+    color: #efefef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.circle-div1 {
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1e1e1e;
+    border-radius: 50%;
+    bottom: -15%;
+    left: -5%;
+}
+
+.circle-div2 {
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1e1e1e;
+    border-radius: 50%;
+    top: -15%;
+    right: -5%;
+}
+
+.footer-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15rem;
+}
+
+.footer-content p {
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    margin-bottom: 1rem;
+}
