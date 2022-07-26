@@ -2,6 +2,7 @@
     width: 100%;
     /* height: 100vh; */
     background-color: #efefef;
+    color: #1e1e1e;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +47,7 @@
 .photo-contact {
     width: 150px;
     height: 150px;
-    background: #efefef;
+    background: #1e1e1e;
     margin-right: 10rem;
     border-radius: 50%;
 }
@@ -89,7 +90,7 @@
     justify-content: center;
     align-items: flex-start;
     font-size: 1.3rem;
-    border-top: 1px solid #efefef;
+    border-top: 1px solid #1e1e1e;
 }
 
 .label-div label {
@@ -148,7 +149,8 @@
     height: 7rem;
     border: none;
     border-radius: 50%;
-    color: #1e1e1e;
+    background: #1e1e1e;
+    color: #efefef;
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
     outline: none;
@@ -205,7 +207,7 @@
     height: 100%;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgba(239, 239, 239, 0.5);
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .div-details a {
