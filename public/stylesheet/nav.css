@@ -20,9 +20,11 @@
     background-color: #8070d4;
 }
 
+
+
 .nav {
     position: fixed;
-    color: #1e1e1e;
+    color: var(--fontLight);
     top: 0;
     left: 0;
     z-index: 1000;
@@ -33,6 +35,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 2rem;
+}
+
+.nav.darkTheme {
+    color: var(--fontDark);
 }
 
 .social-media-section {
@@ -50,23 +56,31 @@
 }
 
 .social-media-section a {
-    color: #1e1e1e;
+    color: var(--fontLight);
     mix-blend-mode: difference;
     text-decoration: none;
     transform: rotate(90deg);
     user-select: none;
 }
 
+.social-media-section a.darkTheme {
+    color: var(--fontDark);
+}
+
 body {
     position: relative;
-    background-color: #efefef;
+    background-color: var(--lightTheme);
 }
 
 .nav-a {
     font-size: 2rem;
-    color: #1e1e1e;
+    color: var(--fontLight);
     text-decoration: none;
     margin: 2rem;
+}
+
+.nav-a.darkTheme {
+    color: var(--fontDark);
 }
 
 .nav-hambugger {
@@ -85,12 +99,16 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #efefef;
+    background-color: var(--lightTheme);
     z-index: 100;
     transform: translateX(-100%);
     /* transform: translateY(0); */
     transition: all 0.5s ease-in-out;
     overflow: hidden;
+}
+
+.nav-container.darkTheme {
+    background-color: var(--darkTheme);
 }
 
 .container-div {
@@ -110,14 +128,19 @@ body {
     width: 100%;
     height: 4rem;
     font-size: 1.5rem;
-    color: #1e1e1e;
+    color: var(--fontLight);
     text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding-top: 1rem;
-    border-bottom: 1px dotted #1e1e1e;
+    border-bottom: 1px dotted var(--darkTheme);
+}
+
+.container-div a.darkTheme {
+    color: var(--fontDark);
+    border-bottom: 1px dotted var(--lightTheme);
 }
 
 /* mouse hover boxes */
@@ -134,7 +157,11 @@ body {
     opacity: 0;
     user-select: none;
     pointer-events: none;
-    -webkit-text-stroke: 1px #1e1e1e;
+    -webkit-text-stroke: 1px var(--darkTheme);
     color: transparent;
     transition: opacity 0.3s linear;
+}
+
+.mouse-box1.darkTheme {
+    -webkit-text-stroke: 1px var(--fontDark);
 }

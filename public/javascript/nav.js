@@ -30,27 +30,32 @@ navAtag.forEach((element) => {
 const changeTextStyle = (name) => {
     changingText.innerHTML = name;
     changingText.style.opacity = 1;
-}
+};
 
-navAtag1.addEventListener("mousemove", () => changeTextStyle("Home"))
-navAtag2.addEventListener("mousemove", () => changeTextStyle("Services"))
-navAtag3.addEventListener("mousemove", () => changeTextStyle("Contact"))
-navAtag4.addEventListener("mousemove", () => changeTextStyle("Projects"))
+navAtag1.addEventListener("mousemove", () => changeTextStyle("Home"));
+navAtag2.addEventListener("mousemove", () => changeTextStyle("Services"));
+navAtag3.addEventListener("mousemove", () => changeTextStyle("Contact"));
+navAtag4.addEventListener("mousemove", () => changeTextStyle("Projects"));
 // navAtag5.addEventListener("mousemove", () => changeTextStyle("Register"))
 
+// dark-theme
 
+// const toggleButton = document.querySelector(".toggle-button");
 
-
-// navAtag3.addEventListener("mousemove", () => {
-//     changingText.innerHTML = "Teams";
-//     changingText.style.opacity = 1;
-// });
-// navAtag4.addEventListener("mousemove", () => {
-//     changingText.innerHTML = "Login";
-//     changingText.style.opacity = 1;
-// });
-// navAtag5.addEventListener("mousemove", () => {
-//     changingText.innerHTML = "Register";
-//     changingText.style.opacity = 1;
+// toggleButton.addEventListener("click", () => {
+//     darkThemeFunction();
 // });
 
+// const darkThemeFunction = () => {
+//     // nav-bar
+//     document.querySelectorAll(".social-media-section a").forEach((element) => {
+//         element.classList.toggle("darkTheme");
+//     });
+//     document.querySelector(".nav").classList.toggle("darkTheme");
+//     document.querySelector(".nav-a").classList.toggle("darkTheme");
+//     document.querySelector(".nav-container").classList.toggle("darkTheme");
+//     document.querySelector(".mouse-box1").classList.toggle("darkTheme");
+//     document.querySelectorAll(".container-div a").forEach((element) => {
+//         element.classList.toggle("darkTheme");
+//     });
+// };
