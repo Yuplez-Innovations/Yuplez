@@ -37,25 +37,3 @@ navAtag2.addEventListener("mousemove", () => changeTextStyle("Services"));
 navAtag3.addEventListener("mousemove", () => changeTextStyle("Contact"));
 navAtag4.addEventListener("mousemove", () => changeTextStyle("Projects"));
 // navAtag5.addEventListener("mousemove", () => changeTextStyle("Register"))
-
-// dark-theme
-
-// const toggleButton = document.querySelector(".toggle-button");
-
-// toggleButton.addEventListener("click", () => {
-//     darkThemeFunction();
-// });
-
-// const darkThemeFunction = () => {
-//     // nav-bar
-//     document.querySelectorAll(".social-media-section a").forEach((element) => {
-//         element.classList.toggle("darkTheme");
-//     });
-//     document.querySelector(".nav").classList.toggle("darkTheme");
-//     document.querySelector(".nav-a").classList.toggle("darkTheme");
-//     document.querySelector(".nav-container").classList.toggle("darkTheme");
-//     document.querySelector(".mouse-box1").classList.toggle("darkTheme");
-//     document.querySelectorAll(".container-div a").forEach((element) => {
-//         element.classList.toggle("darkTheme");
-//     });
-// };
