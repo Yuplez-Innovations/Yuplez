@@ -6,7 +6,6 @@ const gsapconnection = (content1, content2, content3, content4, content5) => {
             end: "bottom bottom",
             scrub: true,
             pin: true,
-            // markers: true,
         },
     }).to(content1, {
         duration: 1,
@@ -17,11 +16,10 @@ const gsapconnection = (content1, content2, content3, content4, content5) => {
     gsap.timeline({
         scrollTrigger: {
             trigger: content2,
-            start: "calc(90%) top",
+            start: "-35% top",
             end: "bottom bottom",
             scrub: true,
             pin: true,
-            // markers: true,
         },
     }).to(content2, {
         duration: 1,
@@ -36,7 +34,6 @@ const gsapconnection = (content1, content2, content3, content4, content5) => {
             end: "bottom bottom",
             scrub: true,
             pin: true,
-            // markers: true,
         },
     }).to(content3, {
         duration: 1,
@@ -50,15 +47,13 @@ const gsapconnection = (content1, content2, content3, content4, content5) => {
     gsap.timeline({
         scrollTrigger: {
             trigger: content4,
-            start: "-10% 0%",
+            start: "0% 0%",
             end: "bottom bottom",
             scrub: true,
             pin: true,
-            // markers: true,
         },
     }).to(content4, {
         duration: 1,
-        // delay: 10,
         y: "70%",
         ease: "power2.inOut",
     });
@@ -70,14 +65,11 @@ const gsapconnection = (content1, content2, content3, content4, content5) => {
             end: "bottom bottom",
             scrub: true,
             pin: true,
-            // markers: true,
         },
     }).to(content5, {
         duration: 1,
-        delay: 10,
         opacity: 1,
         x: "75%",
-        // y: "10%",
         ease: "power2.inOut",
     });
 };
@@ -104,9 +96,8 @@ gsapconnection(
     ".content-projects3"
 );
 
-const toggleButton = document.querySelector(".toggle-button");
-
 // dark-theme
+const toggleButton = document.querySelector(".toggle-button");
 
 toggleButton.addEventListener("click", () => {
     darkThemeFunction();
