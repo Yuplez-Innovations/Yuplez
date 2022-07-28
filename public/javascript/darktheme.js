@@ -18,26 +18,24 @@ const darkThemeFunction = () => {
     document.querySelectorAll(".container-div a").forEach((element) => {
         element.classList.toggle("darkTheme");
     });
+    // main page
+    document.querySelector(".main-section").classList.toggle("darkTheme");
 
-    // contact us
-    document.querySelectorAll(".label-div label").forEach((element) => {
+    // services
+    document.querySelector(".services-section").classList.toggle("darkTheme");
+
+    // teams
+    document.querySelector(".team-section").classList.toggle("darkTheme");
+    document.querySelectorAll(".swiper-slide").forEach((element) => {
         element.classList.toggle("darkTheme");
     });
-    document.querySelector(".label-div textarea").classList.toggle("darkTheme");
-    document.querySelectorAll(".label-div input").forEach((element) => {
+    document.querySelectorAll(".slide-intro-div h1").forEach((element) => {
         element.classList.toggle("darkTheme");
     });
-    document.querySelectorAll(".label-div").forEach((element) => {
+    document.querySelectorAll(".slide-intro-div p").forEach((element) => {
         element.classList.toggle("darkTheme");
     });
-    document.querySelectorAll(".div-details h1").forEach((element) => {
+    document.querySelectorAll(".team-content").forEach((element) => {
         element.classList.toggle("darkTheme");
     });
-    document.querySelectorAll(".div-details a").forEach((element) => {
-        element.classList.toggle("darkTheme");
-    });
-    document.querySelector(".contact-main-div").classList.toggle("darkTheme");
 };
-
-// main page
-// document.querySelector(".main-section").classList.toggle("darkTheme");

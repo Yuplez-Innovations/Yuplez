@@ -30,27 +30,10 @@ navAtag.forEach((element) => {
 const changeTextStyle = (name) => {
     changingText.innerHTML = name;
     changingText.style.opacity = 1;
-}
+};
 
-navAtag1.addEventListener("mousemove", () => changeTextStyle("Home"))
-navAtag2.addEventListener("mousemove", () => changeTextStyle("Services"))
-navAtag3.addEventListener("mousemove", () => changeTextStyle("Contact"))
-navAtag4.addEventListener("mousemove", () => changeTextStyle("Projects"))
+navAtag1.addEventListener("mousemove", () => changeTextStyle("Home"));
+navAtag2.addEventListener("mousemove", () => changeTextStyle("Services"));
+navAtag3.addEventListener("mousemove", () => changeTextStyle("Contact"));
+navAtag4.addEventListener("mousemove", () => changeTextStyle("Projects"));
 // navAtag5.addEventListener("mousemove", () => changeTextStyle("Register"))
-
-
-
-
-// navAtag3.addEventListener("mousemove", () => {
-//     changingText.innerHTML = "Teams";
-//     changingText.style.opacity = 1;
-// });
-// navAtag4.addEventListener("mousemove", () => {
-//     changingText.innerHTML = "Login";
-//     changingText.style.opacity = 1;
-// });
-// navAtag5.addEventListener("mousemove", () => {
-//     changingText.innerHTML = "Register";
-//     changingText.style.opacity = 1;
-// });
-

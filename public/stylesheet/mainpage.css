@@ -5,6 +5,13 @@
     font-family: "Roboto", sans-serif;
 }
 
+:root {
+    --lightTheme: #efefef;
+    --darkTheme: #1e1e1e;
+    --fontLight: #1e1e1e;
+    --fontDark: #efefef;
+}
+
 .main-section {
     width: 100%;
     height: 100vh;
@@ -12,9 +19,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #efefef;
-    /* background: url("../images/Logo/light_blue_gradient.png") center/cover no-repeat; */
-    color: #1e1e1e;
+    background-color: var(--lightTheme);
+    color: var(--fontLight);
+}
+
+.main-section.darkTheme {
+    background-color: var(--darkTheme);
+    color: var(--fontDark);
 }
 
 .main-div {
@@ -47,7 +58,7 @@
     font-size: 2rem;
     font-weight: 100;
     background: #000;
-    color: #efefef;
+    color: var(--lightTheme);
     padding: 1% 2%;
     display: flex;
     flex-direction: row;
@@ -76,8 +87,8 @@
     width: 26rem;
     height: 26rem;
     border-radius: 50%;
-    /* background: #000; */
-    background: url("../images/Logo/Yuplez-final-logo-light-blue-bg.png") center/cover no-repeat;
+    background: url("../images/Logo/Yuplez-final-logo-light-blue-bg.png")
+        center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --lightTheme: #efefef;
+    --darkTheme: #1e1e1e;
+    --fontLight: #1e1e1e;
+    --fontDark: #efefef;
+}
+
 .projects-section {
     position: relative;
-    background: #efefef;
+    background: var(--lightTheme);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,6 +21,11 @@
     width: 100%;
     height: 120vh;
     overflow: hidden;
+}
+
+.projects-section.darkTheme {
+    background: var(--darkTheme);
+    color: var(--fontDark);
 }
 
 #myVideo {
@@ -87,7 +99,7 @@
     height: 80%;
     display: flex;
     font-size: 1.3rem;
-    color: #1e1e1e;
+    color: var(--fontDark);
     flex-direction: column;
     justify-content: center;
     align-items: center;
