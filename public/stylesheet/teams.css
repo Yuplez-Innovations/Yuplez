@@ -1,255 +1,261 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	scroll-behavior: smooth;
-	transition: all 0.1s ease-in-out;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 0.1s ease-in-out;
 }
 
 :root {
-	--lightTheme: #efefef;
-	--darkTheme: #1e1e1e;
-	--fontLight: #1e1e1e;
-	--fontDark: #efefef;
+    --lightTheme: #efefef;
+    --darkTheme: #1e1e1e;
+    --fontLight: #1e1e1e;
+    --fontDark: #efefef;
 }
 
 /* mouse */
 .cursor {
-	position: fixed;
-	width: 80px;
-	height: 80px;
-	border: 1px solid var(--darkTheme);
-	border-radius: 50%;
-	background: #ffffff;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	transition: 0.01s;
-	transform: translate(-50%, -50%);
-	pointer-events: none;
-	/* mix-blend-mode: difference; */
-	z-index: 100000;
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    border: 1px solid var(--darkTheme);
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.01s;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    /* mix-blend-mode: difference; */
+    z-index: 100000;
 }
 
 /* teams */
 
 .team-section {
-	position: relative;
-	width: 100%;
-	height: 100vh;
-	background: var(--lightTheme);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: var(--lightTheme);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .team-section.darkTheme {
-	background: var(--darkTheme);
-	color: var(--fontDark);
+    background: var(--darkTheme);
+    color: var(--fontDark);
 }
 
 .swiper {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .swiper-wrapper {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .swiper-slide {
-	height: 70%;
-	text-align: center;
-	font-size: 18px;
-	border: 2px solid var(--darkTheme);
-	border-radius: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	user-select: none;
+    height: 70%;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid var(--darkTheme);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    z-index: 1000000;
 }
 
 .swiper-slide.darkTheme {
-	border: 2px solid var(--lightTheme);
+    border: 2px solid var(--lightTheme);
 }
 
 .swiper-slide:nth-child(1),
 .swiper-slide:nth-child(6) {
-	border: none;
+    border: none;
 }
 
 .team-intro {
-	width: 40% !important;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
+    width: 40% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .slide-intro {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding-left: 6rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6rem;
 }
 
 .slide-intro-div {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 
-	/* display: flex; */
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .slide-intro-div.darkTheme {
-	color: var(--fontDark);
+    color: var(--fontDark);
 }
 
 .slide-intro-div:nth-child(1) {
-	align-items: flex-start;
+    align-items: flex-start;
 }
 
 .slide-intro-div:nth-child(2) {
-	align-items: flex-end;
+    align-items: flex-end;
 }
 
 .slide-intro-div h1 {
-	/* width: 50%; */
-	text-align: left;
-	color: var(--fontLight);
-	font-size: 5rem;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	/* padding-left: 3rem; */
-	padding-top: 3rem;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-weight: 100;
+    /* width: 50%; */
+    text-align: left;
+    color: var(--fontLight);
+    font-size: 5rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /* padding-left: 3rem; */
+    padding-top: 3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-weight: 100;
 }
 
 .slide-intro-div h1.darkTheme {
-	color: var(--fontDark);
+    color: var(--fontDark);
 }
 
 .slide-intro-div p {
-	font-size: 1.1rem;
-	width: 80%;
-	color: var(--fontLight);
-	text-align: left;
-	padding-right: 3rem;
-	padding-bottom: 3rem;
+    font-size: 1.1rem;
+    width: 80%;
+    color: var(--fontLight);
+    text-align: left;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
 }
 
 .slide-intro-div p.darkTheme {
-	color: var(--fontDark);
+    color: var(--fontDark);
 }
 
 .team-member-main-div {
-	position: relative;
-	width: 100%;
-	/* height: 100%; */
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 1rem;
-	transition: all 0.3s ease-in-out;
-	/* transform: translateY(50px); */
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+    /* transform: translateY(50px); */
 }
 
 .team-member-main-div:nth-child(even) {
-	transform: translateY(-50px);
+    transform: translateY(-50px);
 }
 
 .team-image {
-	position: relative;
-	/* width: 100%; */
-	height: 15rem;
-	transform-style: preserve-3d;
-	perspective: 1000;
-	border-radius: 20px;
+    position: relative;
+    /* width: 100%; */
+    height: 15rem;
+    transform-style: preserve-3d;
+    perspective: 1000;
+    border-radius: 20px;
 }
 
 .team-image img {
-	width: 100%;
-	/* transform: translateZ(30px); */
-	height: 100%;
-	object-fit: contain;
-	border-radius: 10px;
+    width: 100%;
+    /* transform: translateZ(30px); */
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
 }
 
 .team-content {
-	color: var(--fontLight);
-	padding: 1rem 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    color: var(--fontLight);
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .team-content.darkTheme {
-	color: var(--fontDark);
+    color: var(--fontDark);
 }
 
 .team-content:hover .cursor {
-	position: absolute;
-	transform: scale(6);
-	background: #000;
+    position: absolute;
+    transform: scale(6);
+    background: #000;
 }
 
 .team-content h1 {
-	font-weight: 100;
+    font-weight: 100;
 }
 
 .team-content-para {
-	padding: 0.5rem;
-	width: 80%;
-	font-weight: 100;
-	transition: all 0.1s ease-in-out;
+    padding: 0.5rem;
+    width: 80%;
+    font-weight: 100;
+    transition: all 0.1s ease-in-out;
 }
 
 @media (max-width: 500px) {
-	.swiper-slide-mobile {
-		display: none;
-	}
-	.team-intro {
-		width: fit-content !important;
-		justify-content: center;
-		align-items: center;
-	}
+    .swiper-slide-mobile {
+        display: none;
+    }
+    .team-intro {
+        width: fit-content !important;
+        justify-content: center;
+        align-items: center;
+    }
 
-	.slide-intro-div {
-		height: fit-content;
-	}
+    .slide-intro-div {
+        height: fit-content;
+    }
 
-	.slide-intro-div h1 {
-		font-size: 3rem;
-		margin-bottom: 3rem;
-		width: 100%;
-	}
-	.slide-intro-div p {
-		width: 90%;
-		padding: 0;
-	}
-	.swiper-slide {
-		height: 70%;
-	}
-	.cursor {
-		display: none;
-	}
+    .slide-intro-div h1 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+    .slide-intro-div p {
+        width: 90%;
+        padding: 0;
+    }
+    .swiper-slide {
+        height: 70%;
+    }
+    .cursor {
+        display: none;
+    }
 }

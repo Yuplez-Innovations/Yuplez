@@ -116,6 +116,7 @@ body {
     color: var(--fontLight);
     align-items: center;
     z-index: 2;
+    text-align: center;
 }
 
 .services-text h1 {

@@ -1,96 +1,96 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 :root {
-	--lightTheme: #efefef;
-	--darkTheme: #1e1e1e;
-	--fontLight: #1e1e1e;
-	--fontDark: #efefef;
+    --lightTheme: #efefef;
+    --darkTheme: #1e1e1e;
+    --fontLight: #1e1e1e;
+    --fontDark: #efefef;
 }
 
 .main-section {
-	width: 100%;
-	height: 100vh;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	background-color: var(--lightTheme);
-	color: var(--fontLight);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightTheme);
+    color: var(--fontLight);
 }
 
 .main-section.darkTheme {
-	background-color: var(--darkTheme);
-	color: var(--fontDark);
+    background-color: var(--darkTheme);
+    color: var(--fontDark);
 }
 
 .main-div {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-mainpage {
-	width: 50%;
-	height: 100%;
-	padding-left: 8rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: flex-start;
-	padding-bottom: 11rem;
+    width: 50%;
+    height: 100%;
+    padding-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-bottom: 6rem;
 }
 
 .content-mainpage h1 {
-	font-size: 7.5rem;
-	font-weight: 100;
-	width: 50%;
+    font-size: 7.5rem;
+    font-weight: 100;
+    width: 50%;
 }
 
 .name-mainpage {
-	font-size: 2rem;
-	font-weight: 100;
-	background: #000;
-	color: var(--lightTheme);
-	padding: 1% 2%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+    font-size: 2rem;
+    font-weight: 100;
+    background: #000;
+    color: var(--lightTheme);
+    padding: 1% 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-mainpage p {
-	font-size: 1.5rem;
-	font-weight: 100;
-	/* width: 50%; */
-	margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    /* width: 50%; */
+    margin-top: 1rem;
 }
 
 .image-mainpage {
-	width: 50%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	padding-left: 5rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5rem;
 }
 
 .image-div {
-	width: 26rem;
-	height: 26rem;
-	border-radius: 50%;
-	background: url('../images/Logo/Yuplez-final-logo-light-blue-bg.png')
-		center/cover no-repeat;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    width: 26rem;
+    height: 26rem;
+    border-radius: 50%;
+    background: url("../images/Logo/Yuplez-final-logo-light-blue-bg.png")
+        center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
