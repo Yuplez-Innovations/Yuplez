@@ -668,6 +668,11 @@ pre code {
     margin-left: auto;
 }
 
+.nav_link
+{
+    position: relative;
+}
+
 .nav_link:hover {
     position: relative !important;
     color: #1e1e1e;
@@ -675,12 +680,13 @@ pre code {
 
 .span_nav_link {
     position: absolute;
-    height: 4px;
+    height: 2px;
     width: 0%;
-    bottom: 0;
+    bottom: -4px;
     background: rgb(60, 121, 212);
     left: 0%;
     transition: all 0.2s ease-in-out;
+    margin-top: 1rem;
 }
 
 .nav_link:hover .span_nav_link {
