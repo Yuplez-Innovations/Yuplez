@@ -10,18 +10,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta charset="utf-8" />
         <script src="./public/js/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script>
-        <link rel="icon" href="./public/images/favicon/favicon.ico" type="image/x-icon" />
+        <link
+            rel="icon"
+            href="./public/images/favicon/favicon.ico"
+            type="image/x-icon"
+        />
         <!-- Stylesheets-->
         <link
             rel="stylesheet"
             type="text/css"
             href="//fonts.googleapis.com/css?family=Poppins:400,500,600%7CTeko:300,400,500%7CMaven+Pro:500"
-        />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-            crossorigin="anonymous"
         />
         <link
             rel="stylesheet"
@@ -33,6 +31,7 @@
         <link rel="stylesheet" href="public/css/fonts.css" />
         <link rel="stylesheet" href="public/css/style.css" />
         <link rel="stylesheet" href="public/css/hero_section.css" />
+        <link rel="stylesheet" href="public/css/nav.css" />
 
         <style>
             .ie-panel {
@@ -52,67 +51,28 @@
         </style>
     </head>
 
-
-
-    
     <body>
         <div class="page">
             <div id="home">
                 <header>
-                    <nav
-                        class="navbar fixed-top navbar-expand-lg"
-                        style="background-color: white"
-                    >
-                        <div class="container-fluid d-flex">
-                            <a class="navbar-brand" href="#">Navbar</a>
-                            <button
-                                class="navbar-toggler"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarNavAltMarkup"
-                                aria-controls="navbarNavAltMarkup"
-                                aria-expanded="false"
-                                aria-label="Toggle navigation"
-                            >
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div
-                                class="collapse navbar-collapse"
-                                id="navbarNavAltMarkup"
-                            >
-                                <div class="navbar-nav ms-auto scrollspy-example" data-bs-spy="scroll" >
-                                    <a
-                                        class="nav-link nav_link active"
-                                        aria-current="page"
-                                        href="#home"
-                                        >Home <span class="span_nav_link"></span
-                                    ></a>
-                                    <a
-                                        class="nav-link nav_link"
-                                        href="#services"
-                                        >Services
-                                        <span class="span_nav_link"></span
-                                    ></a>
-                                    <!-- <a
-                                        class="nav-link nav_link"
-                                        href="#projects"
-                                        >Projects
-                                        <span class="span_nav_link"></span
-                                    ></a> -->
-                                    <a class="nav-link nav_link" href="#team"
-                                        >Team <span class="span_nav_link"></span
-                                    ></a>
-                                    <!-- <a class="nav-link nav_link" href="#news"
-                                        >News <span class="span_nav_link"></span
-                                    ></a> -->
-                                    <a
-                                        class="nav-link nav_link"
-                                        href="#contacts"
-                                        >Contacts
-                                        <span class="span_nav_link"></span
-                                    ></a>
-                                </div>
+                    <nav class="nav">
+                        <div class="container">
+                            <div class="logo">
+                                <a href="#">Yuplez</a>
                             </div>
+                            <div id="mainListDiv" class="main_list">
+                                <ul class="navlinks">
+                                    <li><a class="nav_link" href="#home">Home<span class="span_nav_link"></span></a></li>
+                                    <li><a class="nav_link" href="#services">Services<span class="span_nav_link"></span></a></li>
+                                    <li><a class="nav_link" href="#team">Team<span class="span_nav_link"></span></a></li>
+                                    <li><a class="nav_link" href="#contacts">Contact Us<span class="span_nav_link"></span></a></li>
+                                </ul>
+                            </div>
+                            <span class="navTrigger">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </span>
                         </div>
                     </nav>
                 </header>
@@ -195,7 +155,7 @@
                                     <!-- slide title text -->
                                     <div class="fashion-slider-title-text">
                                         A one-stop solution
-                                        <br>
+                                        <br />
                                         <a
                                             class="button button-primary button-ujarak"
                                             href="#modalCta"
@@ -313,7 +273,7 @@
                                     >
                                         <div
                                             class="box-icon-modern-icon linearicons-phone-in-out"
-                                        ></div>
+                                        ><img class="image_icons" src="https://img.icons8.com/ios/50/000000/teamspeak-new-logo--v1.png"/></div>
                                         <h5 class="box-icon-modern-title">
                                             <a href="#">Teams</a>
                                         </h5>
@@ -1229,15 +1189,16 @@
                                     ></div>
                                     <div class="box-contacts-decor"></div>
                                     <p class="box-contacts-link">
-                                        <a href="tel:#">+1 323-913-4688</a>
+                                        <h4>Contact info</h4>
+                                        <a style="font-size: 1.7rem;" href="tel:#">+91 8939444102</a>
                                     </p>
-                                    <p class="box-contacts-link">
+                                    <!-- <p class="box-contacts-link">
                                         <a href="tel:#">+1 323-888-4554</a>
-                                    </p>
+                                    </p> -->
                                 </div>
                             </article>
                         </div>
-                        <div class="col-sm-8 col-md-6 col-lg-4">
+                        <!-- <div class="col-sm-8 col-md-6 col-lg-4">
                             <article class="box-contacts">
                                 <div class="box-contacts-body">
                                     <div
@@ -1252,7 +1213,7 @@
                                     </p>
                                 </div>
                             </article>
-                        </div>
+                        </div> -->
                         <div class="col-sm-8 col-md-6 col-lg-4">
                             <article class="box-contacts">
                                 <div class="box-contacts-body">
@@ -1261,11 +1222,12 @@
                                     ></div>
                                     <div class="box-contacts-decor"></div>
                                     <p class="box-contacts-link">
-                                        <a href="mailto:#">mail@demolink.org</a>
+                                        <h4>Email</h4>
+                                        <a href="mailto:yuplezinnovations@gmail.com" style="font-size: 1.7rem;">yuplezinnovations@gmail.com</a>
                                     </p>
-                                    <p class="box-contacts-link">
+                                    <!-- <p class="box-contacts-link">
                                         <a href="mailto:#">info@demolink.org</a>
-                                    </p>
+                                    </p> -->
                                 </div>
                             </article>
                         </div>
@@ -1626,21 +1588,7 @@
             });
         </script>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-            integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-            crossorigin="anonymous"
-        ></script>
+
 
         <!--LIVEDEMO_00 -->
 
@@ -1661,7 +1609,11 @@
             })();
         </script>
 
-        <script type="module" crossorigin src="public/js/index.e8250e73.js"></script>
+        <script
+            type="module"
+            crossorigin
+            src="public/js/index.e8250e73.js"
+        ></script>
 
         <!-- Cloudflare Pages Analytics -->
         <script
@@ -1696,5 +1648,7 @@
             })(window, document, "script", "dataLayer", "GTM-P9FT69");
         </script> -->
         <!-- End Google Tag Manager -->
+
+        <script src="./public/js/nav.js"></script>
     </body>
 </html>
