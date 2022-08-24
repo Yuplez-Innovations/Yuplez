@@ -159,7 +159,10 @@ h1,
     font-size: 42px;
     line-height: 1.30556;
 }
-
+.getinTouch {
+    background: url('../images/bgsection2.png') left/contain no-repeat;
+    background-size: 70%;
+}
 @media (min-width: 992px) {
     h1,
     .heading-1 {
