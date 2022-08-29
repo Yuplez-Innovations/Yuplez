@@ -13697,6 +13697,7 @@
 
 .linearicons-outbox:before {
 	content: "\e99e";
+	visibility: hidden;
 }
 
 .linearicons-box:before {
@@ -14025,6 +14026,7 @@
 
 .linearicons-headset:before {
 	content: "\e9f0";
+	visibility: hidden;
 }
 
 .linearicons-loudspeaker:before {
@@ -14537,6 +14539,7 @@
 
 .linearicons-phone-in-out:before {
 	content: "\ea70";
+	visibility: hidden;
 }
 
 .linearicons-phone-error:before {
