@@ -1191,7 +1191,7 @@
                                     <div class="box-contacts-decor"></div>
                                     <p class="box-contacts-link">
                                         <h4>Contact info</h4>
-                                        <a style="font-size: 1.7rem;" href="tel:#">+91 8939444102</a>
+                                        <a style="font-size: 1.7rem;" href="tel:8939444102">+91 8939444102</a>
                                     </p>
                                     <!-- <p class="box-contacts-link">
                                         <a href="tel:#">+1 323-888-4554</a>
@@ -1461,8 +1461,13 @@
                                 data-form-output="form-output-global"
                                 data-form-type="contact-modal"
                                 method="post"
+                        action="https://formsubmit.co/yuplezinnovations@gmail.com"
                                 action="bat/rd-mailform.php"
                             >
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_autoresponse" value="your custom message">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_next" value="https://www.yuplez.com">
                                 <div class="row row-14 gutters-14">
                                     <div class="col-12">
                                         <div class="form-wrap">
@@ -1470,14 +1475,15 @@
                                                 class="form-input"
                                                 id="contact-modal-name"
                                                 type="text"
+                                                placeholder="Enter your Name"
                                                 name="name"
                                                 data-constraints="@Required"
                                             />
-                                            <label
+                                            <!-- <label
                                                 class="form-label"
                                                 for="contact-modal-name"
                                                 >Your Name</label
-                                            >
+                                            > -->
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -1487,16 +1493,17 @@
                                                 id="contact-modal-email"
                                                 type="email"
                                                 name="email"
+                                                placeholder="Enter your Email"
                                                 data-constraints="@Email @Required"
                                             />
-                                            <label
+                                            <!-- <label
                                                 class="form-label"
                                                 for="contact-modal-email"
                                                 >E-mail</label
-                                            >
+                                            > -->
                                         </div>
                                     </div>
-                                    <div class="col-12">
+                                    <!-- <div class="col-12">
                                         <div class="form-wrap">
                                             <input
                                                 class="form-input"
@@ -1511,18 +1518,19 @@
                                                 >Phone</label
                                             >
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="col-12">
                                         <div class="form-wrap">
-                                            <label
+                                            <!-- <label
                                                 class="form-label"
                                                 for="contact-modal-message"
                                                 >Message</label
-                                            >
+                                            > -->
                                             <textarea
                                                 class="form-input textarea-lg"
                                                 id="contact-modal-message"
                                                 name="message"
+                                                placeholder="Enter your Message"
                                                 data-constraints="@Required"
                                             ></textarea>
                                         </div>

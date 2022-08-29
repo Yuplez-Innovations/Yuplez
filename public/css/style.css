@@ -4400,13 +4400,13 @@ textarea.form-input {
     height: 156px;
     min-height: 60px;
     max-height: 265px;
-    resize: vertical;
+    resize: none;
 }
 
 textarea.textarea-lg {
     height: 206px;
     max-height: 350px;
-    resize: vertical;
+    resize: none;
 }
 
 .form-label,

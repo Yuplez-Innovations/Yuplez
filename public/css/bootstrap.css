@@ -376,7 +376,7 @@ input[type="month"] {
 
 textarea {
     overflow: auto;
-    resize: vertical;
+    resize: none;
 }
 
 fieldset {
@@ -730,6 +730,7 @@ pre code {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+    justify-content: space-between;
 }
 
 .no-gutters {
@@ -1162,8 +1163,8 @@ pre code {
         max-width: 25%;
     }
     .col-md-4 {
-        flex: 0 0 33.33333%;
-        max-width: 33.33333%;
+        flex: 0 0 50%;
+        max-width: 100%;
     }
     .col-md-5 {
         flex: 0 0 41.66667%;
