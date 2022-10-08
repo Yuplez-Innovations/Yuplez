@@ -39,6 +39,10 @@ body {
     font-size: 2.5rem;
 }
 
+.nav div.logo a img {
+    width: 50px;
+}
+
 
 .nav div.main_list {
     height: 65px;
