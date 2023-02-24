@@ -12294,19 +12294,19 @@ html [class*="section-"].section-top-0 {
 }
 
 .bg-overlay-68::before {
-    background: rgba(43, 49, 59, 0.68);
+    background: rgba(43, 49, 59, 0.4);
 }
 
 .bg-overlay-64::before {
-    background: rgba(43, 49, 59, 0.64);
+    background: rgba(43, 49, 59, 0.4);
 }
 
 .bg-overlay-60::before {
-    background: rgba(43, 49, 59, 0.6);
+    background: rgba(43, 49, 59, 0.4);
 }
 
 .bg-overlay-59::before {
-    background: rgba(43, 49, 59, 0.59);
+    background: rgba(43, 49, 59, 0.4);
 }
 
 .bg-overlay-55::before {
