@@ -1,0 +1,22 @@
+.slidercontainer {
+	display: inline-block;
+	position: relative;
+	white-space: nowrap;
+}
+
+.sliderbox {
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	/* background-color: gray; */
+	margin-right: 10px;
+	line-height: 100px;
+	text-align: center;
+}
+
+.sliderbox img {
+	width: 100%;
+	height: 100%;
+    padding: 10px;
+	object-fit: contain;
+}
